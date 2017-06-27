@@ -11,7 +11,7 @@ export default createClass({
     return {domain: DEFAULT_DOMAIN}
   },
   onChange (e) {
-    const value = e.target.value
+    const value = e.target.value.trim()
     clearTimeout(this.debouncedSetState)
     this.debouncedSetState = setTimeout(() => {
       if (!value || value === '') this.setState({domain: DEFAULT_DOMAIN})
