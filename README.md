@@ -7,7 +7,7 @@
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 > Experiment Parallax 3D Logo
 
-![](https://d3uepj124s5rcx.cloudfront.net/items/183w3E0R082W2r0a0822/Screen%20Recording%202017-03-02%20at%2008.52%20pm.gif?v=36a77851)
+![](demo.gif)
 
 ## License
 
