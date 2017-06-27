@@ -4,8 +4,8 @@
     "OfflinePlugin: Cache asset [index.html] is not found in the output assets,if it's an external asset, put it to the |externals| option to remove this warning"
   ],
   "version": "2.6.1",
-  "hash": "605f358efcdf451febe4",
-  "time": 26061,
+  "hash": "e7746f0c81a337df00be",
+  "time": 28465,
   "publicPath": "",
   "assetsByChunkName": {
     "main": [
@@ -22,7 +22,7 @@
   "assets": [
     {
       "name": "assets/js/bundle.js",
-      "size": 158631,
+      "size": 158638,
       "chunks": [
         0
       ],
@@ -55,7 +55,7 @@
     },
     {
       "name": "assets/js/bundle.js.map",
-      "size": 1701889,
+      "size": 1701910,
       "chunks": [
         0
       ],
@@ -109,7 +109,7 @@
     },
     {
       "name": "index.html",
-      "size": 3901,
+      "size": 3672,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
@@ -139,7 +139,7 @@
       "initial": true,
       "entry": false,
       "extraAsync": false,
-      "size": 702939,
+      "size": 702946,
       "names": [
         "main"
       ],
@@ -149,7 +149,7 @@
         "assets/js/bundle.js.map",
         "assets/css/bundle.css.map"
       ],
-      "hash": "6399cb16a4bd1f110558",
+      "hash": "dcdc13160c381db4d359",
       "parents": [
         1
       ],
@@ -5006,15 +5006,6 @@
           "loc": "13:19-44"
         },
         {
-          "moduleId": "JYGa",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/lib/createClass.js",
-          "module": "./~/react/lib/createClass.js",
-          "moduleName": "./~/react/lib/createClass.js",
-          "type": "cjs require",
-          "userRequest": "./ReactElement",
-          "loc": "16:16-41"
-        },
-        {
           "moduleId": "S+kE",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/lib/ReactPropTypes.js",
           "module": "./~/react/lib/ReactPropTypes.js",
@@ -5022,6 +5013,15 @@
           "type": "cjs require",
           "userRequest": "./ReactElement",
           "loc": "13:15-40"
+        },
+        {
+          "moduleId": "JYGa",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/lib/createClass.js",
+          "module": "./~/react/lib/createClass.js",
+          "moduleName": "./~/react/lib/createClass.js",
+          "type": "cjs require",
+          "userRequest": "./ReactElement",
+          "loc": "16:16-41"
         },
         {
           "moduleId": "5WN7",
@@ -8735,7 +8735,7 @@
       "name": "./src/app/App/index.js",
       "index": 176,
       "index2": 179,
-      "size": 2397,
+      "size": 2404,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -8768,7 +8768,7 @@
         "default"
       ],
       "depth": 2,
-      "source": "var _jsx = function () { var REACT_ELEMENT_TYPE = typeof Symbol === \"function\" && Symbol.for && Symbol.for(\"react.element\") || 0xeac7; return function createRawReactElement(type, props, key, children) { var defaultProps = type && type.defaultProps; var childrenLength = arguments.length - 3; if (!props && childrenLength !== 0) { props = {}; } if (props && defaultProps) { for (var propName in defaultProps) { if (props[propName] === void 0) { props[propName] = defaultProps[propName]; } } } else if (!props) { props = defaultProps || {}; } if (childrenLength === 1) { props.children = children; } else if (childrenLength > 1) { var childArray = Array(childrenLength); for (var i = 0; i < childrenLength; i++) { childArray[i] = arguments[i + 3]; } props.children = childArray; } return { $$typeof: REACT_ELEMENT_TYPE, type: type, key: key === undefined ? null : '' + key, ref: null, props: props, _owner: null }; }; }();\n\nimport createClass from 'create-react-class';\nimport React from 'react';\n\nimport Card from '../Card';\n\nvar DEFAULT_DOMAIN = 'https://stripe.com';\nvar DEBOUNCE_MS = 500;\n\nvar _ref = _jsx('h1', {\n  className: 'f2 fw6 tc pv4 grey-700 avenir'\n}, void 0, 'react-atv-logo');\n\nexport default createClass({\n  getInitialState: function getInitialState() {\n    return { domain: DEFAULT_DOMAIN };\n  },\n  onChange: function onChange(e) {\n    var _this = this;\n\n    var value = e.target.value;\n    clearTimeout(this.debouncedSetState);\n    this.debouncedSetState = setTimeout(function () {\n      if (!value || value === '') _this.setState({ domain: DEFAULT_DOMAIN });else _this.setState({ domain: value });\n    }, DEBOUNCE_MS);\n  },\n  render: function render() {\n    var domain = this.state.domain;\n    var onChange = this.onChange;\n\n\n    return _jsx('main', {\n      className: 'vh-100 dt w-100 bg-grey-50'\n    }, void 0, _jsx('div', {\n      className: 'tc white ph3 ph4-l'\n    }, void 0, _ref, _jsx('div', {\n      className: 'flex justify-center flex-column items-center'\n    }, void 0, _jsx(Card, {\n      className: 'pb4',\n      domain: domain\n    }), _jsx('form', {\n      className: 'pa4 pb4 black-80 w-30-l'\n    }, void 0, _jsx('div', {\n      className: 'measure'\n    }, void 0, _jsx('input', {\n      id: 'name',\n      className: 'input-reset ba b--black-20 pa2 mb2 db w-100 br2',\n      type: 'text',\n      placeholder: 'Enter domain...',\n      onChange: onChange\n    }))))));\n  }\n});"
+      "source": "var _jsx = function () { var REACT_ELEMENT_TYPE = typeof Symbol === \"function\" && Symbol.for && Symbol.for(\"react.element\") || 0xeac7; return function createRawReactElement(type, props, key, children) { var defaultProps = type && type.defaultProps; var childrenLength = arguments.length - 3; if (!props && childrenLength !== 0) { props = {}; } if (props && defaultProps) { for (var propName in defaultProps) { if (props[propName] === void 0) { props[propName] = defaultProps[propName]; } } } else if (!props) { props = defaultProps || {}; } if (childrenLength === 1) { props.children = children; } else if (childrenLength > 1) { var childArray = Array(childrenLength); for (var i = 0; i < childrenLength; i++) { childArray[i] = arguments[i + 3]; } props.children = childArray; } return { $$typeof: REACT_ELEMENT_TYPE, type: type, key: key === undefined ? null : '' + key, ref: null, props: props, _owner: null }; }; }();\n\nimport createClass from 'create-react-class';\nimport React from 'react';\n\nimport Card from '../Card';\n\nvar DEFAULT_DOMAIN = 'https://stripe.com';\nvar DEBOUNCE_MS = 500;\n\nvar _ref = _jsx('h1', {\n  className: 'f2 fw6 tc pv4 grey-700 avenir'\n}, void 0, 'react-atv-logo');\n\nexport default createClass({\n  getInitialState: function getInitialState() {\n    return { domain: DEFAULT_DOMAIN };\n  },\n  onChange: function onChange(e) {\n    var _this = this;\n\n    var value = e.target.value.trim();\n    clearTimeout(this.debouncedSetState);\n    this.debouncedSetState = setTimeout(function () {\n      if (!value || value === '') _this.setState({ domain: DEFAULT_DOMAIN });else _this.setState({ domain: value });\n    }, DEBOUNCE_MS);\n  },\n  render: function render() {\n    var domain = this.state.domain;\n    var onChange = this.onChange;\n\n\n    return _jsx('main', {\n      className: 'vh-100 dt w-100 bg-grey-50'\n    }, void 0, _jsx('div', {\n      className: 'tc white ph3 ph4-l'\n    }, void 0, _ref, _jsx('div', {\n      className: 'flex justify-center flex-column items-center'\n    }, void 0, _jsx(Card, {\n      className: 'pb4',\n      domain: domain\n    }), _jsx('form', {\n      className: 'pa4 pb4 black-80 w-30-l'\n    }, void 0, _jsx('div', {\n      className: 'measure'\n    }, void 0, _jsx('input', {\n      id: 'name',\n      className: 'input-reset ba b--black-20 pa2 mb2 db w-100 br2',\n      type: 'text',\n      placeholder: 'Enter domain...',\n      onChange: onChange\n    }))))));\n  }\n});"
     },
     {
       "id": "rGbO",
@@ -10134,7 +10134,7 @@
       "assets": [
         {
           "name": "index.html",
-          "size": 553485,
+          "size": 552062,
           "chunks": [
             0
           ],
@@ -10158,12 +10158,12 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 550288,
+          "size": 548865,
           "names": [],
           "files": [
             "index.html"
           ],
-          "hash": "e93b8b615522489308bb",
+          "hash": "8f533c7efde9a656b416",
           "parents": [],
           "origins": [
             {
@@ -10258,7 +10258,7 @@
           "name": "./~/html-webpack-plugin/lib/loader.js!./index.ejs",
           "index": 0,
           "index2": 3,
-          "size": 9674,
+          "size": 8251,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -10277,7 +10277,7 @@
           "usedExports": true,
           "providedExports": null,
           "depth": 0,
-          "source": "var _ = require(\"./node_modules/lodash/lodash.js\");module.exports = function (templateParams) {var compilation = templateParams.compilation;var webpack = templateParams.webpack;var webpackConfig = templateParams.webpackConfig;var htmlWebpackPlugin = templateParams.htmlWebpackPlugin;return (function(data) {\nvar __t, __p = '', __j = Array.prototype.join;\nfunction print() { __p += __j.call(arguments, '') }\n\n var item, key ;\n__p += '\\n';\n var isProduction = process.env.NODE_ENV === 'production' ;\n__p += '\\n\\n';\n htmlWebpackPlugin.options.appMountIds = htmlWebpackPlugin.options.appMountIds || [] ;\n__p += '\\n';\n htmlWebpackPlugin.options.links = htmlWebpackPlugin.options.links || [] ;\n__p += '\\n';\n htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || {} ;\n__p += '\\n';\n htmlWebpackPlugin.options.scripts = htmlWebpackPlugin.options.scripts || [] ;\n__p += '\\n\\n<!DOCTYPE html>\\n<!--[if lt IE 7 ]>             <html class=\"ie6\" lang=\"en\"';\n if (htmlWebpackPlugin.files.manifest) { ;\n__p += ' manifest=\"' +\n((__t = ( htmlWebpackPlugin.files.manifest )) == null ? '' : __t) +\n'\"';\n } ;\n__p += '> <![endif]-->\\n<!--[if IE 7 ]>                <html class=\"ie7\" lang=\"en\"';\n if (htmlWebpackPlugin.files.manifest) { ;\n__p += ' manifest=\"' +\n((__t = ( htmlWebpackPlugin.files.manifest )) == null ? '' : __t) +\n'\"';\n } ;\n__p += '> <![endif]-->\\n<!--[if IE 8 ]>                <html class=\"ie8\" lang=\"en\"';\n if (htmlWebpackPlugin.files.manifest) { ;\n__p += ' manifest=\"' +\n((__t = ( htmlWebpackPlugin.files.manifest )) == null ? '' : __t) +\n'\"';\n } ;\n__p += '> <![endif]-->\\n<!--[if IE 9 ]>                <html class=\"ie9\" lang=\"en\"';\n if (htmlWebpackPlugin.files.manifest) { ;\n__p += ' manifest=\"' +\n((__t = ( htmlWebpackPlugin.files.manifest )) == null ? '' : __t) +\n'\"';\n } ;\n__p += '> <![endif]-->\\n<!--[if (gt IE 9)|!(IE)]><!--> <html lang=\"en\"';\n if (htmlWebpackPlugin.files.manifest) { ;\n__p += ' manifest=\"' +\n((__t = ( htmlWebpackPlugin.files.manifest )) == null ? '' : __t) +\n'\"';\n } ;\n__p += '> <!--<![endif]-->\\n  <head>\\n    <meta charset=\"utf-8\">\\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\\n    <meta name=\"HandheldFriendly\" content=\"True\">\\n    <meta name=\"MobileOptimized\" content=\"320\">\\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\\n\\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"assets/img/apple-touch-icon.png\">\\n    <link rel=\"icon\" type=\"image/png\" href=\"assets/img/favicon-32x32.png\" sizes=\"32x32\">\\n    <link rel=\"icon\" type=\"image/png\" href=\"assets/img/favicon-16x16.png\" sizes=\"16x16\">\\n    <link rel=\"manifest\" href=\"assets/img/manifest.json\">\\n    <link rel=\"mask-icon\" href=\"assets/img/safari-pinned-tab.svg\" color=\"#5bbad5\">\\n    <link rel=\"shortcut icon\" href=\"assets/img/favicon.ico\">\\n    <meta name=\"msapplication-config\" content=\"assets/img/browserconfig.xml\">\\n    <meta name=\"theme-color\" content=\"#19b7ff\">\\n\\n    <meta property=\"og:site_name\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.title )) == null ? '' : __t) +\n'\"/>\\n    <meta property=\"og:description\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.description )) == null ? '' : __t) +\n'\"/>\\n    <meta property=\"og:url\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.baseHref )) == null ? '' : __t) +\n'\"/>\\n    <meta property=\"og:image\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.baseHref )) == null ? '' : __t) +\n'/assets/img/android-chrome-192x192.png\"/>\\n    <meta property=\"og:image:type\" content=\"image/png\"/>\\n    <meta property=\"og:image:width\" content=\"192\"/>\\n    <meta property=\"og:image:height\" content=\"192\"/>\\n\\n    <meta name=\"twitter:card\" content=\"summary_large_image\"/>\\n    <meta name=\"twitter:title\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.title )) == null ? '' : __t) +\n'\"/>\\n    <meta name=\"twitter:description\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.description )) == null ? '' : __t) +\n'\"/>\\n    <meta name=\"twitter:url\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.baseHref )) == null ? '' : __t) +\n'\"/>\\n    <meta name=\"twitter:image\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.baseHref )) == null ? '' : __t) +\n'/assets/img/android-chrome-192x192.png\"/>\\n    <meta property=\"twitter:image:width\" content=\"192\"/>\\n    <meta property=\"twitter:image:height\" content=\"192\"/>\\n\\n    <title>' +\n((__t = ( htmlWebpackPlugin.options.title )) == null ? '' : __t) +\n'</title>\\n    <meta name=\"description\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.description )) == null ? '' : __t) +\n'\">\\n\\n    ';\n for (item of htmlWebpackPlugin.options.links) { ;\n__p += '\\n    ';\n if (typeof item === 'string' || item instanceof String) { item = { href: item, rel: 'stylesheet' } } ;\n__p += '\\n        <link';\n for (key in item) { ;\n__p += ' ' +\n((__t = ( key )) == null ? '' : __t) +\n'=\"' +\n((__t = ( item[key] )) == null ? '' : __t) +\n'\"';\n } ;\n__p += '>\\n    ';\n } ;\n__p += '\\n\\n    ';\n for (key in htmlWebpackPlugin.files.css) { ;\n__p += '\\n    <link href=\"' +\n((__t = ( htmlWebpackPlugin.files.css[key] )) == null ? '' : __t) +\n'\" rel=\"stylesheet\">\\n    ';\n } ;\n__p += '\\n  </head>\\n  <body>\\n    ';\n if (htmlWebpackPlugin.options.unsupportedBrowser) { ;\n__p += '\\n    <style>.unsupported-browser { display: none; }</style>\\n    <div class=\"unsupported-browser\">\\n      Sorry, your browser is not supported. Please upgrade to the latest version or switch your browser to use this\\n      site. See <a href=\"http://outdatedbrowser.com/\">outdatedbrowser.com</a> for options.\\n    </div>\\n    ';\n } ;\n__p += '\\n    ';\n if (htmlWebpackPlugin.options.appMountId) { htmlWebpackPlugin.options.appMountIds.unshift(htmlWebpackPlugin.options.appMountId) } ;\n__p += '\\n    ';\n for (item of htmlWebpackPlugin.options.appMountIds) { ;\n__p += '\\n    <div id=\"' +\n((__t = ( item )) == null ? '' : __t) +\n'\"></div>\\n    ';\n } ;\n__p += '\\n    <a href=\"https://github.com/Kikobeats/react-atv-logo\" class=\"github-corner\" aria-label=\"View source on Github\"><svg width=\"80\" height=\"80\" viewBox=\"0 0 250 250\" style=\"fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;\" aria-hidden=\"true\"><path d=\"M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z\"></path><path d=\"M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2\" fill=\"currentColor\" style=\"transform-origin: 130px 106px;\" class=\"octo-arm\"></path><path d=\"M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z\" fill=\"currentColor\" class=\"octo-body\"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>\\n    ';\n if (htmlWebpackPlugin.options.window) { ;\n__p += '\\n    <script type=\"text/javascript\">\\n      ';\n for (key in htmlWebpackPlugin.options.window) { ;\n__p += '\\n      window[\\'' +\n((__t = ( key )) == null ? '' : __t) +\n'\\'] = ' +\n((__t = ( JSON.stringify(htmlWebpackPlugin.options.window[key]) )) == null ? '' : __t) +\n';\\n      ';\n } ;\n__p += '\\n    </script>\\n    ';\n } ;\n__p += '\\n    ';\n for (item of htmlWebpackPlugin.options.scripts) { ;\n__p += '\\n    ';\n if (typeof item === 'string' || item instanceof String) { item = { src: item, type: 'text/javascript' } } ;\n__p += '\\n        <script';\n for (key in item) { ;\n__p += ' ' +\n((__t = ( key )) == null ? '' : __t) +\n'=\"' +\n((__t = ( item[key] )) == null ? '' : __t) +\n'\"';\n } ;\n__p += '></script>\\n    ';\n } ;\n__p += '\\n    ';\n for (key in htmlWebpackPlugin.files.chunks) { ;\n__p += '\\n    <script src=\"' +\n((__t = ( htmlWebpackPlugin.files.chunks[key].entry )) == null ? '' : __t) +\n'\" type=\"text/javascript\"></script>\\n    ';\n } ;\n__p += '\\n    ';\n if (htmlWebpackPlugin.options.devServer) { ;\n__p += '\\n    <script src=\"' +\n((__t = ( htmlWebpackPlugin.options.devServer )) == null ? '' : __t) +\n'/webpack-dev-server.js\" type=\"text/javascript\"></script>\\n    ';\n } ;\n__p += '\\n    ';\n if (isProduction && htmlWebpackPlugin.options.googleAnalytics) { ;\n__p += '\\n    <script type=\"text/javascript\">\\n      window.GoogleAnalyticsObject=\\'ga\\';window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;\\n      ';\n if (htmlWebpackPlugin.options.googleAnalytics.trackingId) { ;\n__p += '\\n      ga(\\'create\\',\\'' +\n((__t = ( htmlWebpackPlugin.options.googleAnalytics.trackingId )) == null ? '' : __t) +\n'\\',\\'auto\\');\\n      ';\n } else { throw new Error(\"html-webpack-template requires googleAnalytics.trackingId config\"); } ;\n__p += '\\n      ';\n if (htmlWebpackPlugin.options.googleAnalytics.pageViewOnLoad) { ;\n__p += '\\n      ga(\\'send\\',\\'pageview\\')\\n      ';\n } ;\n__p += '\\n    </script>\\n    <script async defer src=\"https://www.google-analytics.com/analytics.js\" type=\"text/javascript\"></script>\\n    ';\n } ;\n__p += '\\n  </body>\\n</html>\\n';\nreturn __p\n})();}"
+          "source": "var _ = require(\"./node_modules/lodash/lodash.js\");module.exports = function (templateParams) {var compilation = templateParams.compilation;var webpack = templateParams.webpack;var webpackConfig = templateParams.webpackConfig;var htmlWebpackPlugin = templateParams.htmlWebpackPlugin;return (function(data) {\nvar __t, __p = '', __j = Array.prototype.join;\nfunction print() { __p += __j.call(arguments, '') }\n\n var item, key ;\n__p += '\\n';\n var isProduction = process.env.NODE_ENV === 'production' ;\n__p += '\\n\\n';\n htmlWebpackPlugin.options.appMountIds = htmlWebpackPlugin.options.appMountIds || [] ;\n__p += '\\n';\n htmlWebpackPlugin.options.links = htmlWebpackPlugin.options.links || [] ;\n__p += '\\n';\n htmlWebpackPlugin.options.meta = htmlWebpackPlugin.options.meta || {} ;\n__p += '\\n';\n htmlWebpackPlugin.options.scripts = htmlWebpackPlugin.options.scripts || [] ;\n__p += '\\n\\n<!DOCTYPE html>\\n<!--[if lt IE 7 ]>             <html class=\"ie6\" lang=\"en\"';\n if (htmlWebpackPlugin.files.manifest) { ;\n__p += ' manifest=\"' +\n((__t = ( htmlWebpackPlugin.files.manifest )) == null ? '' : __t) +\n'\"';\n } ;\n__p += '> <![endif]-->\\n<!--[if IE 7 ]>                <html class=\"ie7\" lang=\"en\"';\n if (htmlWebpackPlugin.files.manifest) { ;\n__p += ' manifest=\"' +\n((__t = ( htmlWebpackPlugin.files.manifest )) == null ? '' : __t) +\n'\"';\n } ;\n__p += '> <![endif]-->\\n<!--[if IE 8 ]>                <html class=\"ie8\" lang=\"en\"';\n if (htmlWebpackPlugin.files.manifest) { ;\n__p += ' manifest=\"' +\n((__t = ( htmlWebpackPlugin.files.manifest )) == null ? '' : __t) +\n'\"';\n } ;\n__p += '> <![endif]-->\\n<!--[if IE 9 ]>                <html class=\"ie9\" lang=\"en\"';\n if (htmlWebpackPlugin.files.manifest) { ;\n__p += ' manifest=\"' +\n((__t = ( htmlWebpackPlugin.files.manifest )) == null ? '' : __t) +\n'\"';\n } ;\n__p += '> <![endif]-->\\n<!--[if (gt IE 9)|!(IE)]><!--> <html lang=\"en\"';\n if (htmlWebpackPlugin.files.manifest) { ;\n__p += ' manifest=\"' +\n((__t = ( htmlWebpackPlugin.files.manifest )) == null ? '' : __t) +\n'\"';\n } ;\n__p += '> <!--<![endif]-->\\n  <head>\\n    <meta charset=\"utf-8\">\\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\\n    <meta name=\"HandheldFriendly\" content=\"True\">\\n    <meta name=\"MobileOptimized\" content=\"320\">\\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\\n\\n    <meta property=\"og:site_name\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.title )) == null ? '' : __t) +\n'\"/>\\n    <meta property=\"og:description\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.description )) == null ? '' : __t) +\n'\"/>\\n    <meta property=\"og:url\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.baseHref )) == null ? '' : __t) +\n'\"/>\\n\\n    <meta name=\"twitter:title\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.title )) == null ? '' : __t) +\n'\"/>\\n    <meta name=\"twitter:description\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.description )) == null ? '' : __t) +\n'\"/>\\n    <meta name=\"twitter:url\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.baseHref )) == null ? '' : __t) +\n'\"/>\\n\\n    <title>' +\n((__t = ( htmlWebpackPlugin.options.title )) == null ? '' : __t) +\n'</title>\\n    <meta name=\"description\" content=\"' +\n((__t = ( htmlWebpackPlugin.options.description )) == null ? '' : __t) +\n'\">\\n\\n    ';\n for (item of htmlWebpackPlugin.options.links) { ;\n__p += '\\n    ';\n if (typeof item === 'string' || item instanceof String) { item = { href: item, rel: 'stylesheet' } } ;\n__p += '\\n        <link';\n for (key in item) { ;\n__p += ' ' +\n((__t = ( key )) == null ? '' : __t) +\n'=\"' +\n((__t = ( item[key] )) == null ? '' : __t) +\n'\"';\n } ;\n__p += '>\\n    ';\n } ;\n__p += '\\n\\n    ';\n for (key in htmlWebpackPlugin.files.css) { ;\n__p += '\\n    <link href=\"' +\n((__t = ( htmlWebpackPlugin.files.css[key] )) == null ? '' : __t) +\n'\" rel=\"stylesheet\">\\n    ';\n } ;\n__p += '\\n  </head>\\n  <body>\\n    ';\n if (htmlWebpackPlugin.options.unsupportedBrowser) { ;\n__p += '\\n    <style>.unsupported-browser { display: none; }</style>\\n    <div class=\"unsupported-browser\">\\n      Sorry, your browser is not supported. Please upgrade to the latest version or switch your browser to use this\\n      site. See <a href=\"http://outdatedbrowser.com/\">outdatedbrowser.com</a> for options.\\n    </div>\\n    ';\n } ;\n__p += '\\n    ';\n if (htmlWebpackPlugin.options.appMountId) { htmlWebpackPlugin.options.appMountIds.unshift(htmlWebpackPlugin.options.appMountId) } ;\n__p += '\\n    ';\n for (item of htmlWebpackPlugin.options.appMountIds) { ;\n__p += '\\n    <div id=\"' +\n((__t = ( item )) == null ? '' : __t) +\n'\"></div>\\n    ';\n } ;\n__p += '\\n    <a href=\"https://github.com/Kikobeats/react-atv-logo\" class=\"github-corner\" aria-label=\"View source on Github\"><svg width=\"80\" height=\"80\" viewBox=\"0 0 250 250\" style=\"fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;\" aria-hidden=\"true\"><path d=\"M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z\"></path><path d=\"M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2\" fill=\"currentColor\" style=\"transform-origin: 130px 106px;\" class=\"octo-arm\"></path><path d=\"M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z\" fill=\"currentColor\" class=\"octo-body\"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>\\n    ';\n if (htmlWebpackPlugin.options.window) { ;\n__p += '\\n    <script type=\"text/javascript\">\\n      ';\n for (key in htmlWebpackPlugin.options.window) { ;\n__p += '\\n      window[\\'' +\n((__t = ( key )) == null ? '' : __t) +\n'\\'] = ' +\n((__t = ( JSON.stringify(htmlWebpackPlugin.options.window[key]) )) == null ? '' : __t) +\n';\\n      ';\n } ;\n__p += '\\n    </script>\\n    ';\n } ;\n__p += '\\n    ';\n for (item of htmlWebpackPlugin.options.scripts) { ;\n__p += '\\n    ';\n if (typeof item === 'string' || item instanceof String) { item = { src: item, type: 'text/javascript' } } ;\n__p += '\\n        <script';\n for (key in item) { ;\n__p += ' ' +\n((__t = ( key )) == null ? '' : __t) +\n'=\"' +\n((__t = ( item[key] )) == null ? '' : __t) +\n'\"';\n } ;\n__p += '></script>\\n    ';\n } ;\n__p += '\\n    ';\n for (key in htmlWebpackPlugin.files.chunks) { ;\n__p += '\\n    <script src=\"' +\n((__t = ( htmlWebpackPlugin.files.chunks[key].entry )) == null ? '' : __t) +\n'\" type=\"text/javascript\"></script>\\n    ';\n } ;\n__p += '\\n    ';\n if (htmlWebpackPlugin.options.devServer) { ;\n__p += '\\n    <script src=\"' +\n((__t = ( htmlWebpackPlugin.options.devServer )) == null ? '' : __t) +\n'/webpack-dev-server.js\" type=\"text/javascript\"></script>\\n    ';\n } ;\n__p += '\\n    ';\n if (isProduction && htmlWebpackPlugin.options.googleAnalytics) { ;\n__p += '\\n    <script>\\n      (function(i,s,o,g,r,a,m){i[\\'GoogleAnalyticsObject\\']=r;i[r]=i[r]||function(){\\n      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\\n      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\\n      })(window,document,\\'script\\',\\'https://www.google-analytics.com/analytics.js\\',\\'ga\\');\\n      ga(\\'create\\', \\'' +\n((__t = ( htmlWebpackPlugin.options.googleAnalytics )) == null ? '' : __t) +\n'\\', \\'auto\\');\\n      ga(\\'set\\', \\'transport\\', \\'beacon\\');\\n      ga(\\'send\\', \\'pageview\\');\\n    </script>\\n    ';\n } ;\n__p += '\\n  </body>\\n</html>\\n';\nreturn __p\n})();}"
         },
         {
           "id": "M4fF",
