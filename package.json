@@ -1,0 +1,79 @@
+{
+  "name": "react-atv-logo",
+  "description": "Experiment Parallax 3D Logo",
+  "homepage": "https://github.com/Kikobeats/react-atv-logo",
+  "version": "0.0.0",
+  "author": {
+    "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
+    "url": "https://github.com/Kikobeats"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kikobeats/react-atv-logo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kikobeats/react-atv-logo/issues"
+  },
+  "keywords": [
+    "react",
+    "parallax",
+    "atv",
+    "logo"
+  ],
+  "dependencies": {
+    "autoprefixer": "~7.1.1",
+    "babel-core": "~6.25.0",
+    "babel-loader": "~7.1.0",
+    "babel-plugin-transform-object-rest-spread": "~6.23.0",
+    "babel-plugin-transform-react-constant-elements": "~6.23.0",
+    "babel-plugin-transform-react-inline-elements": "~6.22.0",
+    "babel-plugin-transform-react-remove-prop-types": "~0.4.6",
+    "babel-preset-env": "~1.5.2",
+    "babel-preset-react": "~6.24.1",
+    "create-react-class": "~15.6.0",
+    "css-loader": "~0.28.4",
+    "extract-text-webpack-plugin": "~2.1.2",
+    "file-loader": "~0.11.2",
+    "glob": "~7.1.2",
+    "html-webpack-harddisk-plugin": "0.1.0",
+    "html-webpack-plugin": "~2.29.0",
+    "material-colors-scss": "~0.2.2",
+    "node-sass": "~4.5.3",
+    "offline-plugin": "~4.8.1",
+    "postcss-focus": "~2.0.0",
+    "postcss-loader": "~2.0.6",
+    "postcss-scss": "~1.0.2",
+    "preload-webpack-plugin": "~1.2.2",
+    "purify-css": "~1.2.5",
+    "purifycss-webpack": "~0.7.0",
+    "react": "~15.6.1",
+    "react-atv-img": "~0.1.1",
+    "react-dom": "~15.6.1",
+    "react-hot-loader": "~3.0.0-beta.7",
+    "sass-loader": "~6.0.6",
+    "style-loader": "~0.18.2",
+    "tachyons-sass": "~4.7.1",
+    "travis-after-all": "~1.4.5",
+    "webpack": "~2.6.1",
+    "webpack-bundle-analyzer": "~2.8.2"
+  },
+  "devDependencies": {
+    "babel-preset-react-optimize": "latest",
+    "browser-sync": "latest",
+    "browser-sync-webpack-plugin": "latest",
+    "standard": "latest",
+    "webpack-dashboard": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack --progress --debug --config webpack.config.js",
+    "dev": "webpack-dashboard -- node bin/server",
+    "lint": "standard",
+    "test": "echo 'not yet implemented, wanna help?'"
+  },
+  "license": "MIT"
+}
