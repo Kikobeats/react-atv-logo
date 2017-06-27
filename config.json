@@ -1,3 +1,7 @@
 {
-  "appMountId": "app"
+  "appMountId": "app",
+  "title": "react-atv-logo",
+  "baseHref": "https://kikobeats.github.io/react-atv-logo",
+  "description": "Experimenting with Clearbit API and Apple TV 3DParallax  effect for logos",
+  "googleAnalytics": "UA-34372837-4"
 }
