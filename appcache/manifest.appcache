@@ -1,0 +1,13 @@
+CACHE MANIFEST
+#ver:2017-6-27 22:46:05
+#plugin:4.8.1
+
+CACHE:
+../
+../assets/js/bundle.js
+
+NETWORK:
+*
+
+FALLBACK:
+/ /
