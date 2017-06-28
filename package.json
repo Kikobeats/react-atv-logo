@@ -59,7 +59,6 @@
     "webpack-bundle-analyzer": "~2.8.2"
   },
   "devDependencies": {
-    "babel-eslint": "~7.2.3",
     "babel-plugin-transform-class-properties": "~6.24.1",
     "babel-preset-react-optimize": "latest",
     "browser-sync": "latest",
@@ -74,11 +73,8 @@
   "scripts": {
     "build": "NODE_ENV=production webpack --progress --debug --config webpack.config.js",
     "dev": "webpack-dashboard -- node bin/server",
-    "lint": "standard",
+    "lint": "standard --parser babel-eslint",
     "test": "echo 'not yet implemented, wanna help?'"
-  },
-  "standard": {
-    "parser": "babel-eslint"
   },
   "license": "MIT"
 }
