@@ -4,8 +4,8 @@
     "OfflinePlugin: Cache asset [index.html] is not found in the output assets,if it's an external asset, put it to the |externals| option to remove this warning"
   ],
   "version": "2.6.1",
-  "hash": "e7746f0c81a337df00be",
-  "time": 28465,
+  "hash": "6496451efabb5ada76fa",
+  "time": 26181,
   "publicPath": "",
   "assetsByChunkName": {
     "main": [
@@ -22,7 +22,7 @@
   "assets": [
     {
       "name": "assets/js/bundle.js",
-      "size": 158638,
+      "size": 158777,
       "chunks": [
         0
       ],
@@ -55,7 +55,7 @@
     },
     {
       "name": "assets/js/bundle.js.map",
-      "size": 1701910,
+      "size": 1702395,
       "chunks": [
         0
       ],
@@ -139,7 +139,7 @@
       "initial": true,
       "entry": false,
       "extraAsync": false,
-      "size": 702946,
+      "size": 703223,
       "names": [
         "main"
       ],
@@ -149,7 +149,7 @@
         "assets/js/bundle.js.map",
         "assets/css/bundle.css.map"
       ],
-      "hash": "dcdc13160c381db4d359",
+      "hash": "7ff34d44434549e8b673",
       "parents": [
         1
       ],
@@ -1553,15 +1553,6 @@
           "loc": "26:31-68"
         },
         {
-          "moduleId": "HKgI",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/lib/ReactInjection.js",
-          "module": "./~/react-dom/lib/ReactInjection.js",
-          "moduleName": "./~/react-dom/lib/ReactInjection.js",
-          "type": "cjs require",
-          "userRequest": "./ReactBrowserEventEmitter",
-          "loc": "18:31-68"
-        },
-        {
           "moduleId": "LTYS",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/lib/ReactReconcileTransaction.js",
           "module": "./~/react-dom/lib/ReactReconcileTransaction.js",
@@ -1569,6 +1560,15 @@
           "type": "cjs require",
           "userRequest": "./ReactBrowserEventEmitter",
           "loc": "17:31-68"
+        },
+        {
+          "moduleId": "HKgI",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/lib/ReactInjection.js",
+          "module": "./~/react-dom/lib/ReactInjection.js",
+          "moduleName": "./~/react-dom/lib/ReactInjection.js",
+          "type": "cjs require",
+          "userRequest": "./ReactBrowserEventEmitter",
+          "loc": "18:31-68"
         }
       ],
       "usedExports": true,
@@ -1699,15 +1699,6 @@
           "loc": "13:14-38"
         },
         {
-          "moduleId": "LR//",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/lib/ReactDOMTextComponent.js",
-          "module": "./~/react-dom/lib/ReactDOMTextComponent.js",
-          "moduleName": "./~/react-dom/lib/ReactDOMTextComponent.js",
-          "type": "cjs require",
-          "userRequest": "object-assign",
-          "loc": "14:14-38"
-        },
-        {
           "moduleId": "vdcO",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/lib/ReactDefaultBatchingStrategy.js",
           "module": "./~/react-dom/lib/ReactDefaultBatchingStrategy.js",
@@ -1724,6 +1715,15 @@
           "type": "cjs require",
           "userRequest": "object-assign",
           "loc": "13:14-38"
+        },
+        {
+          "moduleId": "LR//",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/lib/ReactDOMTextComponent.js",
+          "module": "./~/react-dom/lib/ReactDOMTextComponent.js",
+          "moduleName": "./~/react-dom/lib/ReactDOMTextComponent.js",
+          "type": "cjs require",
+          "userRequest": "object-assign",
+          "loc": "14:14-38"
         },
         {
           "moduleId": "LTYS",
@@ -2038,7 +2038,7 @@
       "name": "./src/app/Card/index.js",
       "index": 178,
       "index2": 178,
-      "size": 561,
+      "size": 838,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -2071,7 +2071,7 @@
         "default"
       ],
       "depth": 3,
-      "source": "var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nimport React from 'react';\n\nimport AtvImg from 'react-atv-img';\n\nexport default (function (props) {\n  var domain = props.domain;\n\n\n  return React.createElement(AtvImg, _extends({\n    layers: ['https://logo.clearbit.com/' + domain + '?size=128'],\n    style: { width: 130, height: 162 }\n  }, props));\n});"
+      "source": "var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nfunction _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }\n\nimport React from 'react';\n\nimport AtvImg from 'react-atv-img';\n\nexport default (function (_ref) {\n  var domain = _ref.domain,\n      props = _objectWithoutProperties(_ref, ['domain']);\n\n  return React.createElement(AtvImg, _extends({\n    layers: ['https://logo.clearbit.com/' + domain + '?size=128'],\n    style: { width: 130, height: 162 }\n  }, props));\n});"
     },
     {
       "id": "DMKF",
@@ -4739,7 +4739,7 @@
           "moduleName": "./src/app/Card/index.js",
           "type": "harmony import",
           "userRequest": "react",
-          "loc": "3:0-26"
+          "loc": "5:0-26"
         },
         {
           "moduleId": "DT0+",
@@ -7073,7 +7073,7 @@
           "moduleName": "./src/app/Card/index.js",
           "type": "harmony import",
           "userRequest": "react-atv-img",
-          "loc": "5:0-35"
+          "loc": "7:0-35"
         }
       ],
       "usedExports": [
@@ -7715,19 +7715,19 @@
           "loc": "16:28-62"
         },
         {
-          "moduleId": "LR//",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/lib/ReactDOMTextComponent.js",
-          "module": "./~/react-dom/lib/ReactDOMTextComponent.js",
-          "moduleName": "./~/react-dom/lib/ReactDOMTextComponent.js",
+          "moduleId": "5KoS",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/lib/ReactEventListener.js",
+          "module": "./~/react-dom/lib/ReactEventListener.js",
+          "moduleName": "./~/react-dom/lib/ReactEventListener.js",
           "type": "cjs require",
           "userRequest": "./ReactDOMComponentTree",
           "loc": "18:28-62"
         },
         {
-          "moduleId": "5KoS",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/lib/ReactEventListener.js",
-          "module": "./~/react-dom/lib/ReactEventListener.js",
-          "moduleName": "./~/react-dom/lib/ReactEventListener.js",
+          "moduleId": "LR//",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/lib/ReactDOMTextComponent.js",
+          "module": "./~/react-dom/lib/ReactDOMTextComponent.js",
+          "moduleName": "./~/react-dom/lib/ReactDOMTextComponent.js",
           "type": "cjs require",
           "userRequest": "./ReactDOMComponentTree",
           "loc": "18:28-62"
