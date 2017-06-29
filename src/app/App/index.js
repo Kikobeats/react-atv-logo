@@ -9,11 +9,12 @@ export default class extends Component {
   state = { domain: DEFAULT_DOMAIN }
 
   onChange = e => {
-    const domain = e.target.value.trim()
+    const domain = e.target.value.trim() || DEFAULT_DOMAIN
     clearTimeout(this.debouncedSetState)
-    this.debouncedSetState = setTimeout(() => (!domain || domain === '')
-      ? this.setState({ domain: DEFAULT_DOMAIN })
-      : this.setState({ domain }), DEBOUNCE_MS)
+    this.debouncedSetState = setTimeout(
+      () => this.setState({ domain }),
+      DEBOUNCE_MS
+    )
   }
 
   render = () => (
