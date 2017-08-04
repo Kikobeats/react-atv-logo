@@ -55,7 +55,7 @@
     "tachyons-sass": "~4.7.1",
     "travis-after-all": "~1.4.5",
     "webpack": "~3.4.0",
-    "webpack-bundle-analyzer": "~2.8.2"
+    "webpack-bundle-analyzer": "~2.9.0"
   },
   "devDependencies": {
     "babel-eslint": "~7.2.3",
