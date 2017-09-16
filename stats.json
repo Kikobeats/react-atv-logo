@@ -3,9 +3,9 @@
   "warnings": [
     "OfflinePlugin: Cache asset [index.html] is not found in the output assets,if the asset is not processed by webpack, move it to the |externals| option to remove this warning."
   ],
-  "version": "3.5.6",
+  "version": "3.6.0",
   "hash": "6c9cfafebbed0da78d0a",
-  "time": 11466,
+  "time": 14692,
   "publicPath": "",
   "assetsByChunkName": {
     "main": [
