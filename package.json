@@ -46,7 +46,7 @@
     "preload-webpack-plugin": "~2.0.0",
     "purify-css": "~1.2.5",
     "purifycss-webpack": "~0.7.0",
-    "react": "~15.6.1",
+    "react": "~16.0.0",
     "react-atv-img": "~0.1.1",
     "react-dom": "~15.6.1",
     "react-hot-loader": "~3.0.0-beta.7",
