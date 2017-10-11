@@ -3,9 +3,9 @@
   "warnings": [
     "OfflinePlugin: Cache asset [index.html] is not found in the output assets,if the asset is not processed by webpack, move it to the |externals| option to remove this warning."
   ],
-  "version": "3.6.0",
-  "hash": "4c68f7bff55648580b29",
-  "time": 10250,
+  "version": "3.7.1",
+  "hash": "a2169bc610589405d529",
+  "time": 10172,
   "publicPath": "",
   "assetsByChunkName": {
     "main": [
@@ -54,7 +54,7 @@
     },
     {
       "name": "assets/js/bundle.js.map",
-      "size": 470887,
+      "size": 470889,
       "chunks": [
         0
       ],
@@ -76,14 +76,14 @@
     },
     {
       "name": "sw.js",
-      "size": 8790,
+      "size": 8791,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
     },
     {
       "name": "appcache/manifest.appcache",
-      "size": 114,
+      "size": 115,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
@@ -136,7 +136,7 @@
         "assets/css/bundle.css",
         "assets/js/bundle.js.map"
       ],
-      "hash": "8a95997f7f75650441dd",
+      "hash": "e41c69be5f64af826837",
       "parents": [
         1
       ],
@@ -308,22 +308,13 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-          "issuerId": "vttU",
-          "issuerName": "./node_modules/react/cjs/react.production.min.js",
+          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerId": "/OLF",
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
-            {
-              "moduleId": "vttU",
-              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-              "module": "./node_modules/react/cjs/react.production.min.js",
-              "moduleName": "./node_modules/react/cjs/react.production.min.js",
-              "type": "cjs require",
-              "userRequest": "object-assign",
-              "loc": "10:19-43"
-            },
             {
               "moduleId": "/OLF",
               "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -332,6 +323,15 @@
               "type": "cjs require",
               "userRequest": "object-assign",
               "loc": "11:116-140"
+            },
+            {
+              "moduleId": "vttU",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+              "module": "./node_modules/react/cjs/react.production.min.js",
+              "moduleName": "./node_modules/react/cjs/react.production.min.js",
+              "type": "cjs require",
+              "userRequest": "object-assign",
+              "loc": "10:19-43"
             }
           ],
           "usedExports": true,
@@ -441,15 +441,6 @@
               "loc": "5:0-26"
             },
             {
-              "moduleId": "I/Eq",
-              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-atv-img/lib/components/AtvImg.js",
-              "module": "./node_modules/react-atv-img/lib/components/AtvImg.js",
-              "moduleName": "./node_modules/react-atv-img/lib/components/AtvImg.js",
-              "type": "cjs require",
-              "userRequest": "react",
-              "loc": "15:13-29"
-            },
-            {
               "moduleId": "sGP0",
               "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-hot-loader/lib/AppContainer.prod.js",
               "module": "./node_modules/react-hot-loader/lib/AppContainer.prod.js",
@@ -457,6 +448,15 @@
               "type": "cjs require",
               "userRequest": "react",
               "loc": "13:12-28"
+            },
+            {
+              "moduleId": "I/Eq",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-atv-img/lib/components/AtvImg.js",
+              "module": "./node_modules/react-atv-img/lib/components/AtvImg.js",
+              "moduleName": "./node_modules/react-atv-img/lib/components/AtvImg.js",
+              "type": "cjs require",
+              "userRequest": "react",
+              "loc": "15:13-29"
             }
           ],
           "usedExports": true,
@@ -501,7 +501,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "/* eslint-disable global-require */\n\n'use strict';\n\nif (!module.hot || process.env.NODE_ENV === 'production') {\n  module.exports = require('./index.prod');\n} else {\n  module.exports = require('./index.dev');\n}"
+          "source": "'use strict';\n\n/* eslint-disable global-require */\n\nif (!module.hot || process.env.NODE_ENV === 'production') {\n  module.exports = require('./index.prod');\n} else {\n  module.exports = require('./index.dev');\n}"
         },
         {
           "id": "I/Eq",
@@ -672,22 +672,13 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-          "issuerId": "vttU",
-          "issuerName": "./node_modules/react/cjs/react.production.min.js",
+          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerId": "/OLF",
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
-            {
-              "moduleId": "vttU",
-              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-              "module": "./node_modules/react/cjs/react.production.min.js",
-              "moduleName": "./node_modules/react/cjs/react.production.min.js",
-              "type": "cjs require",
-              "userRequest": "fbjs/lib/emptyObject",
-              "loc": "10:46-77"
-            },
             {
               "moduleId": "/OLF",
               "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -696,6 +687,15 @@
               "type": "cjs require",
               "userRequest": "fbjs/lib/emptyObject",
               "loc": "11:218-249"
+            },
+            {
+              "moduleId": "vttU",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+              "module": "./node_modules/react/cjs/react.production.min.js",
+              "moduleName": "./node_modules/react/cjs/react.production.min.js",
+              "type": "cjs require",
+              "userRequest": "fbjs/lib/emptyObject",
+              "loc": "10:46-77"
             }
           ],
           "usedExports": true,
@@ -719,22 +719,13 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-          "issuerId": "vttU",
-          "issuerName": "./node_modules/react/cjs/react.production.min.js",
+          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerId": "/OLF",
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
-            {
-              "moduleId": "vttU",
-              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-              "module": "./node_modules/react/cjs/react.production.min.js",
-              "moduleName": "./node_modules/react/cjs/react.production.min.js",
-              "type": "cjs require",
-              "userRequest": "fbjs/lib/invariant",
-              "loc": "10:78-107"
-            },
             {
               "moduleId": "/OLF",
               "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -743,6 +734,15 @@
               "type": "cjs require",
               "userRequest": "fbjs/lib/invariant",
               "loc": "11:37-66"
+            },
+            {
+              "moduleId": "vttU",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+              "module": "./node_modules/react/cjs/react.production.min.js",
+              "moduleName": "./node_modules/react/cjs/react.production.min.js",
+              "type": "cjs require",
+              "userRequest": "fbjs/lib/invariant",
+              "loc": "10:78-107"
             }
           ],
           "usedExports": true,
@@ -804,22 +804,13 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-          "issuerId": "vttU",
-          "issuerName": "./node_modules/react/cjs/react.production.min.js",
+          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerId": "/OLF",
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
-            {
-              "moduleId": "vttU",
-              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-              "module": "./node_modules/react/cjs/react.production.min.js",
-              "moduleName": "./node_modules/react/cjs/react.production.min.js",
-              "type": "cjs require",
-              "userRequest": "fbjs/lib/emptyFunction",
-              "loc": "10:114-147"
-            },
             {
               "moduleId": "/OLF",
               "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -828,6 +819,15 @@
               "type": "cjs require",
               "userRequest": "fbjs/lib/emptyFunction",
               "loc": "11:181-214"
+            },
+            {
+              "moduleId": "vttU",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+              "module": "./node_modules/react/cjs/react.production.min.js",
+              "moduleName": "./node_modules/react/cjs/react.production.min.js",
+              "type": "cjs require",
+              "userRequest": "fbjs/lib/emptyFunction",
+              "loc": "10:114-147"
             },
             {
               "moduleId": "o+pC",
@@ -997,7 +997,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 5,
-          "source": "/* eslint-disable global-require */\n\n'use strict';\n\nif (!module.hot || process.env.NODE_ENV === 'production') {\n  module.exports = require('./AppContainer.prod');\n} else {\n  module.exports = require('./AppContainer.dev');\n}"
+          "source": "'use strict';\n\n/* eslint-disable global-require */\n\nif (!module.hot || process.env.NODE_ENV === 'production') {\n  module.exports = require('./AppContainer.prod');\n} else {\n  module.exports = require('./AppContainer.dev');\n}"
         },
         {
           "id": "o+pC",
@@ -1123,7 +1123,7 @@
           "name": "./node_modules/react-hot-loader/index.js",
           "index": 2,
           "index2": 10,
-          "size": 41,
+          "size": 40,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1155,7 +1155,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 2,
-          "source": "module.exports = require('./lib/index');\n"
+          "source": "module.exports = require('./lib/index')\n"
         },
         {
           "id": "sGP0",
@@ -1163,7 +1163,7 @@
           "name": "./node_modules/react-hot-loader/lib/AppContainer.prod.js",
           "index": 6,
           "index2": 6,
-          "size": 2206,
+          "size": 2207,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1193,7 +1193,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 6,
-          "source": "/* eslint-disable react/prop-types */\n\n'use strict';\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar React = require('react');\nvar Component = React.Component;\n\nvar AppContainer = function (_Component) {\n  _inherits(AppContainer, _Component);\n\n  function AppContainer() {\n    _classCallCheck(this, AppContainer);\n\n    return _possibleConstructorReturn(this, (AppContainer.__proto__ || Object.getPrototypeOf(AppContainer)).apply(this, arguments));\n  }\n\n  _createClass(AppContainer, [{\n    key: 'render',\n    value: function render() {\n      if (this.props.component) {\n        return React.createElement(this.props.component, this.props.props);\n      }\n\n      return React.Children.only(this.props.children);\n    }\n  }]);\n\n  return AppContainer;\n}(Component);\n\nmodule.exports = AppContainer;"
+          "source": "'use strict';\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\n/* eslint-disable react/prop-types */\n\nvar React = require('react');\n\nvar Component = React.Component;\n\nvar AppContainer = function (_Component) {\n  _inherits(AppContainer, _Component);\n\n  function AppContainer() {\n    _classCallCheck(this, AppContainer);\n\n    return _possibleConstructorReturn(this, (AppContainer.__proto__ || Object.getPrototypeOf(AppContainer)).apply(this, arguments));\n  }\n\n  _createClass(AppContainer, [{\n    key: 'render',\n    value: function render() {\n      if (this.props.component) {\n        return React.createElement(this.props.component, this.props.props);\n      }\n\n      return React.Children.only(this.props.children);\n    }\n  }]);\n\n  return AppContainer;\n}(Component);\n\nmodule.exports = AppContainer;"
         },
         {
           "id": 0,
@@ -1539,22 +1539,13 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-      "issuerId": "vttU",
-      "issuerName": "./node_modules/react/cjs/react.production.min.js",
+      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerId": "/OLF",
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "vttU",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-          "module": "./node_modules/react/cjs/react.production.min.js",
-          "moduleName": "./node_modules/react/cjs/react.production.min.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/emptyFunction",
-          "loc": "10:114-147"
-        },
         {
           "moduleId": "/OLF",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -1563,6 +1554,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/emptyFunction",
           "loc": "11:181-214"
+        },
+        {
+          "moduleId": "vttU",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+          "module": "./node_modules/react/cjs/react.production.min.js",
+          "moduleName": "./node_modules/react/cjs/react.production.min.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/emptyFunction",
+          "loc": "10:114-147"
         },
         {
           "moduleId": "o+pC",
@@ -1660,22 +1660,13 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-      "issuerId": "vttU",
-      "issuerName": "./node_modules/react/cjs/react.production.min.js",
+      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerId": "/OLF",
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "vttU",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-          "module": "./node_modules/react/cjs/react.production.min.js",
-          "moduleName": "./node_modules/react/cjs/react.production.min.js",
-          "type": "cjs require",
-          "userRequest": "object-assign",
-          "loc": "10:19-43"
-        },
         {
           "moduleId": "/OLF",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -1684,6 +1675,15 @@
           "type": "cjs require",
           "userRequest": "object-assign",
           "loc": "11:116-140"
+        },
+        {
+          "moduleId": "vttU",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+          "module": "./node_modules/react/cjs/react.production.min.js",
+          "moduleName": "./node_modules/react/cjs/react.production.min.js",
+          "type": "cjs require",
+          "userRequest": "object-assign",
+          "loc": "10:19-43"
         }
       ],
       "usedExports": true,
@@ -1793,15 +1793,6 @@
           "loc": "5:0-26"
         },
         {
-          "moduleId": "I/Eq",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-atv-img/lib/components/AtvImg.js",
-          "module": "./node_modules/react-atv-img/lib/components/AtvImg.js",
-          "moduleName": "./node_modules/react-atv-img/lib/components/AtvImg.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "15:13-29"
-        },
-        {
           "moduleId": "sGP0",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-hot-loader/lib/AppContainer.prod.js",
           "module": "./node_modules/react-hot-loader/lib/AppContainer.prod.js",
@@ -1809,6 +1800,15 @@
           "type": "cjs require",
           "userRequest": "react",
           "loc": "13:12-28"
+        },
+        {
+          "moduleId": "I/Eq",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-atv-img/lib/components/AtvImg.js",
+          "module": "./node_modules/react-atv-img/lib/components/AtvImg.js",
+          "moduleName": "./node_modules/react-atv-img/lib/components/AtvImg.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "15:13-29"
         }
       ],
       "usedExports": true,
@@ -1853,7 +1853,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "/* eslint-disable global-require */\n\n'use strict';\n\nif (!module.hot || process.env.NODE_ENV === 'production') {\n  module.exports = require('./index.prod');\n} else {\n  module.exports = require('./index.dev');\n}"
+      "source": "'use strict';\n\n/* eslint-disable global-require */\n\nif (!module.hot || process.env.NODE_ENV === 'production') {\n  module.exports = require('./index.prod');\n} else {\n  module.exports = require('./index.dev');\n}"
     },
     {
       "id": "I/Eq",
@@ -2024,22 +2024,13 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-      "issuerId": "vttU",
-      "issuerName": "./node_modules/react/cjs/react.production.min.js",
+      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerId": "/OLF",
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "vttU",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-          "module": "./node_modules/react/cjs/react.production.min.js",
-          "moduleName": "./node_modules/react/cjs/react.production.min.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/emptyObject",
-          "loc": "10:46-77"
-        },
         {
           "moduleId": "/OLF",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -2048,6 +2039,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/emptyObject",
           "loc": "11:218-249"
+        },
+        {
+          "moduleId": "vttU",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+          "module": "./node_modules/react/cjs/react.production.min.js",
+          "moduleName": "./node_modules/react/cjs/react.production.min.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/emptyObject",
+          "loc": "10:46-77"
         }
       ],
       "usedExports": true,
@@ -2071,22 +2071,13 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-      "issuerId": "vttU",
-      "issuerName": "./node_modules/react/cjs/react.production.min.js",
+      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerId": "/OLF",
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "vttU",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-          "module": "./node_modules/react/cjs/react.production.min.js",
-          "moduleName": "./node_modules/react/cjs/react.production.min.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/invariant",
-          "loc": "10:78-107"
-        },
         {
           "moduleId": "/OLF",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -2095,6 +2086,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/invariant",
           "loc": "11:37-66"
+        },
+        {
+          "moduleId": "vttU",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+          "module": "./node_modules/react/cjs/react.production.min.js",
+          "moduleName": "./node_modules/react/cjs/react.production.min.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/invariant",
+          "loc": "10:78-107"
         }
       ],
       "usedExports": true,
@@ -2293,7 +2293,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 5,
-      "source": "/* eslint-disable global-require */\n\n'use strict';\n\nif (!module.hot || process.env.NODE_ENV === 'production') {\n  module.exports = require('./AppContainer.prod');\n} else {\n  module.exports = require('./AppContainer.dev');\n}"
+      "source": "'use strict';\n\n/* eslint-disable global-require */\n\nif (!module.hot || process.env.NODE_ENV === 'production') {\n  module.exports = require('./AppContainer.prod');\n} else {\n  module.exports = require('./AppContainer.dev');\n}"
     },
     {
       "id": "o+pC",
@@ -2419,7 +2419,7 @@
       "name": "./node_modules/react-hot-loader/index.js",
       "index": 2,
       "index2": 10,
-      "size": 41,
+      "size": 40,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -2451,7 +2451,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 2,
-      "source": "module.exports = require('./lib/index');\n"
+      "source": "module.exports = require('./lib/index')\n"
     },
     {
       "id": "sGP0",
@@ -2459,7 +2459,7 @@
       "name": "./node_modules/react-hot-loader/lib/AppContainer.prod.js",
       "index": 6,
       "index2": 6,
-      "size": 2206,
+      "size": 2207,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -2489,7 +2489,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 6,
-      "source": "/* eslint-disable react/prop-types */\n\n'use strict';\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar React = require('react');\nvar Component = React.Component;\n\nvar AppContainer = function (_Component) {\n  _inherits(AppContainer, _Component);\n\n  function AppContainer() {\n    _classCallCheck(this, AppContainer);\n\n    return _possibleConstructorReturn(this, (AppContainer.__proto__ || Object.getPrototypeOf(AppContainer)).apply(this, arguments));\n  }\n\n  _createClass(AppContainer, [{\n    key: 'render',\n    value: function render() {\n      if (this.props.component) {\n        return React.createElement(this.props.component, this.props.props);\n      }\n\n      return React.Children.only(this.props.children);\n    }\n  }]);\n\n  return AppContainer;\n}(Component);\n\nmodule.exports = AppContainer;"
+      "source": "'use strict';\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\n/* eslint-disable react/prop-types */\n\nvar React = require('react');\n\nvar Component = React.Component;\n\nvar AppContainer = function (_Component) {\n  _inherits(AppContainer, _Component);\n\n  function AppContainer() {\n    _classCallCheck(this, AppContainer);\n\n    return _possibleConstructorReturn(this, (AppContainer.__proto__ || Object.getPrototypeOf(AppContainer)).apply(this, arguments));\n  }\n\n  _createClass(AppContainer, [{\n    key: 'render',\n    value: function render() {\n      if (this.props.component) {\n        return React.createElement(this.props.component, this.props.props);\n      }\n\n      return React.Children.only(this.props.children);\n    }\n  }]);\n\n  return AppContainer;\n}(Component);\n\nmodule.exports = AppContainer;"
     },
     {
       "id": "sgb3",
