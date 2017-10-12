@@ -16,10 +16,10 @@
     "url": "https://github.com/Kikobeats/react-atv-logo/issues"
   },
   "keywords": [
-    "react",
-    "parallax",
     "atv",
-    "logo"
+    "logo",
+    "parallax",
+    "react"
   ],
   "dependencies": {
     "autoprefixer": "~7.1.1",
@@ -47,7 +47,7 @@
     "purify-css": "~1.2.5",
     "purifycss-webpack": "~0.7.0",
     "react": "~16.0.0",
-    "react-atv-img": "~0.1.1",
+    "react-img-atv": "~1.0.0",
     "react-dom": "~16.0.0",
     "react-hot-loader": "~3.0.0-beta.7",
     "sass-loader": "~6.0.6",
@@ -76,8 +76,11 @@
     "lint": "standard --parser babel-eslint",
     "test": "exit 0"
   },
+  "license": "MIT",
   "standard": {
+    "globals": [
+      "React"
+    ],
     "parser": "babel-eslint"
-  },
-  "license": "MIT"
+  }
 }

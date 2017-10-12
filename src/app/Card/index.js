@@ -1,6 +1,6 @@
 import React from 'react'
 
-import AtvImg from 'react-atv-img'
+import AtvImg from 'react-img-atv'
 
 export default ({ domain, ...props }) => (
   <AtvImg
