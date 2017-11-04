@@ -5,7 +5,7 @@
   ],
   "version": "3.8.1",
   "hash": "27efdf5c985196b7c50b",
-  "time": 15870,
+  "time": 11377,
   "publicPath": "",
   "assetsByChunkName": {
     "main": [
@@ -76,14 +76,14 @@
     },
     {
       "name": "sw.js",
-      "size": 8791,
+      "size": 8790,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
     },
     {
       "name": "appcache/manifest.appcache",
-      "size": 115,
+      "size": 114,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
