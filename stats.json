@@ -4,8 +4,8 @@
     "OfflinePlugin: Cache asset [index.html] is not found in the output assets,if the asset is not processed by webpack, move it to the |externals| option to remove this warning."
   ],
   "version": "3.8.1",
-  "hash": "27efdf5c985196b7c50b",
-  "time": 11377,
+  "hash": "89c5d4314c48f603e5a0",
+  "time": 21967,
   "publicPath": "",
   "assetsByChunkName": {
     "main": [
@@ -21,7 +21,7 @@
   "assets": [
     {
       "name": "assets/js/bundle.js",
-      "size": 127043,
+      "size": 132065,
       "chunks": [
         0
       ],
@@ -54,7 +54,7 @@
     },
     {
       "name": "assets/js/bundle.js.map",
-      "size": 479617,
+      "size": 498062,
       "chunks": [
         0
       ],
@@ -127,7 +127,7 @@
       "initial": true,
       "entry": false,
       "extraAsync": false,
-      "size": 152016,
+      "size": 157569,
       "names": [
         "main"
       ],
@@ -136,7 +136,7 @@
         "assets/css/bundle.css",
         "assets/js/bundle.js.map"
       ],
-      "hash": "5097f3b79e3abf3a03ca",
+      "hash": "76db366b778a0919cc73",
       "parents": [
         1
       ],
@@ -145,7 +145,7 @@
           "id": "/OLF",
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
           "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-          "index": 14,
+          "index": 13,
           "index2": 19,
           "size": 108200,
           "cacheable": true,
@@ -183,8 +183,8 @@
           "id": "08V/",
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/dist/styles.js",
           "name": "./node_modules/react-img-atv/dist/styles.js",
-          "index": 29,
-          "index2": 24,
+          "index": 31,
+          "index2": 26,
           "size": 1402,
           "cacheable": true,
           "built": true,
@@ -335,6 +335,15 @@
               "moduleName": "./node_modules/react/cjs/react.production.min.js",
               "type": "cjs require",
               "userRequest": "object-assign",
+              "loc": "9:19-43"
+            },
+            {
+              "moduleId": "ctcz",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+              "module": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+              "moduleName": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+              "type": "cjs require",
+              "userRequest": "object-assign",
               "loc": "10:19-43"
             }
           ],
@@ -349,7 +358,7 @@
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/babel-loader/lib/index.js!/home/travis/build/Kikobeats/react-atv-logo/src/app/Card/index.js",
           "name": "./src/app/Card/index.js",
           "index": 24,
-          "index2": 26,
+          "index2": 28,
           "size": 838,
           "cacheable": true,
           "built": true,
@@ -391,7 +400,7 @@
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/index.js",
           "name": "./node_modules/react/index.js",
           "index": 7,
-          "index2": 5,
+          "index2": 4,
           "size": 190,
           "cacheable": true,
           "built": true,
@@ -445,15 +454,6 @@
               "loc": "5:0-26"
             },
             {
-              "moduleId": "ZSdQ",
-              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/dist/index.js",
-              "module": "./node_modules/react-img-atv/dist/index.js",
-              "moduleName": "./node_modules/react-img-atv/dist/index.js",
-              "type": "harmony import",
-              "userRequest": "react",
-              "loc": "13:0-41"
-            },
-            {
               "moduleId": "sGP0",
               "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-hot-loader/lib/AppContainer.prod.js",
               "module": "./node_modules/react-hot-loader/lib/AppContainer.prod.js",
@@ -474,7 +474,7 @@
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-hot-loader/lib/index.js",
           "name": "./node_modules/react-hot-loader/lib/index.js",
           "index": 3,
-          "index2": 9,
+          "index2": 8,
           "size": 209,
           "cacheable": true,
           "built": true,
@@ -549,8 +549,8 @@
           "id": "KSGD",
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/prop-types/index.js",
           "name": "./node_modules/prop-types/index.js",
-          "index": 26,
-          "index2": 23,
+          "index": 28,
+          "index2": 25,
           "size": 956,
           "cacheable": true,
           "built": true,
@@ -588,7 +588,7 @@
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-hot-loader/lib/index.prod.js",
           "name": "./node_modules/react-hot-loader/lib/index.prod.js",
           "index": 4,
-          "index2": 8,
+          "index2": 7,
           "size": 71,
           "cacheable": true,
           "built": true,
@@ -625,7 +625,7 @@
           "id": "O27J",
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/index.js",
           "name": "./node_modules/react-dom/index.js",
-          "index": 13,
+          "index": 12,
           "index2": 20,
           "size": 1363,
           "cacheable": true,
@@ -665,8 +665,8 @@
           "id": "Q4WQ",
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/prop-types/factoryWithThrowingShims.js",
           "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
-          "index": 27,
-          "index2": 22,
+          "index": 29,
+          "index2": 24,
           "size": 1492,
           "cacheable": true,
           "built": true,
@@ -737,6 +737,15 @@
               "moduleName": "./node_modules/react/cjs/react.production.min.js",
               "type": "cjs require",
               "userRequest": "fbjs/lib/emptyObject",
+              "loc": "9:46-77"
+            },
+            {
+              "moduleId": "ctcz",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+              "module": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+              "moduleName": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+              "type": "cjs require",
+              "userRequest": "fbjs/lib/emptyObject",
               "loc": "10:46-77"
             }
           ],
@@ -751,7 +760,7 @@
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/dist/index.js",
           "name": "./node_modules/react-img-atv/dist/index.js",
           "index": 25,
-          "index2": 25,
+          "index2": 27,
           "size": 8657,
           "cacheable": true,
           "built": true,
@@ -789,11 +798,90 @@
           "source": "var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _jsx = function () { var REACT_ELEMENT_TYPE = typeof Symbol === \"function\" && Symbol.for && Symbol.for(\"react.element\") || 0xeac7; return function createRawReactElement(type, props, key, children) { var defaultProps = type && type.defaultProps; var childrenLength = arguments.length - 3; if (!props && childrenLength !== 0) { props = {}; } if (props && defaultProps) { for (var propName in defaultProps) { if (props[propName] === void 0) { props[propName] = defaultProps[propName]; } } } else if (!props) { props = defaultProps || {}; } if (childrenLength === 1) { props.children = children; } else if (childrenLength > 1) { var childArray = Array(childrenLength); for (var i = 0; i < childrenLength; i++) { childArray[i] = arguments[i + 3]; } props.children = childArray; } return { $$typeof: REACT_ELEMENT_TYPE, type: type, key: key === undefined ? null : '' + key, ref: null, props: props, _owner: null }; }; }();\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nimport React, { Component } from 'react';\nimport PropTypes from 'prop-types';\n\nimport styles from './styles';\n\nvar AtvImg = function (_Component) {\n  _inherits(AtvImg, _Component);\n\n  function AtvImg() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, AtvImg);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = AtvImg.__proto__ || Object.getPrototypeOf(AtvImg)).call.apply(_ref, [this].concat(args))), _this), _this.state = {\n      rootElemWidth: 0,\n      rootElemHeight: 0,\n      isOnHover: false,\n      container: {},\n      shine: {},\n      layers: []\n    }, _this.componentDidMount = function () {\n      if (!_this.props.isStatic) {\n        _this.setState({\n          // eslint-disable-line react/no-did-mount-set-state\n          // this is a legit use case. we must trigger a re-render. don't worry.\n          rootElemWidth: _this.node.clientWidth || _this.node.offsetWidth || _this.node.scrollWidth,\n          rootElemHeight: _this.node.clientHeight || _this.node.offsetHeight || _this.node.scrollHeight\n        });\n      }\n    }, _this.handleMove = function (_ref2) {\n      var pageX = _ref2.pageX,\n          pageY = _ref2.pageY;\n\n      var layerCount = _this.props.layers.length; // the number of layers\n\n      var _this$state = _this.state,\n          rootElemWidth = _this$state.rootElemWidth,\n          rootElemHeight = _this$state.rootElemHeight;\n\n\n      var bodyScrollTop = document.body.scrollTop || document.getElementsByTagName('html')[0].scrollTop;\n      var bodyScrollLeft = document.body.scrollLeft;\n      var offsets = _this.node.getBoundingClientRect();\n      var wMultiple = 320 / rootElemWidth;\n      var offsetX = 0.52 - (pageX - offsets.left - bodyScrollLeft) / rootElemWidth; // cursor position X\n      var offsetY = 0.52 - (pageY - offsets.top - bodyScrollTop) / rootElemHeight; // cursor position Y\n      var dy = pageY - offsets.top - bodyScrollTop - rootElemHeight / 2; // center Y of container\n      var dx = pageX - offsets.left - bodyScrollLeft - rootElemWidth / 2; // center X of container\n      var yRotate = (offsetX - dx) * (0.07 * wMultiple); // rotation for container Y\n      var xRotate = (dy - offsetY) * (0.1 * wMultiple); // rotation for container X\n\n      var arad = Math.atan2(dy, dx); // angle between cursor and center of container in RAD\n\n      var rawAngle = arad * 180 / Math.PI - 90; // convert rad to degrees\n      var angle = rawAngle < 0 ? rawAngle + 360 : rawAngle;\n\n      _this.setState({\n        container: {\n          transform: 'rotateX(' + xRotate + 'deg) rotateY(' + yRotate + 'deg)' + (_this.state.isOnHover ? ' scale3d(1.07,1.07,1.07)' : '')\n        },\n        shine: {\n          background: 'linear-gradient(' + angle + 'deg, rgba(255, 255, 255, ' + (pageY - offsets.top - bodyScrollTop) / rootElemHeight * 0.4 + ') 0%, rgba(255, 255, 255, 0) 80%)',\n          transform: 'translateX(' + (offsetX * layerCount - 0.1) + 'px) translateY(' + (offsetY * layerCount - 0.1) + 'px)'\n        },\n        layers: _this.props.layers.map(function (_, idx) {\n          return {\n            transform: 'translateX(' + offsetX * (layerCount - idx) * (idx * 2.5 / wMultiple) + 'px) translateY(' + offsetY * layerCount * (idx * 2.5 / wMultiple) + 'px)'\n          };\n        })\n      });\n    }, _this.handleTouchMove = function (evt) {\n      evt.preventDefault();\n      var _evt$touches$ = evt.touches[0],\n          pageX = _evt$touches$.pageX,\n          pageY = _evt$touches$.pageY;\n\n      _this.handleMove({ pageX: pageX, pageY: pageY });\n    }, _this.handleEnter = function () {\n      _this.setState({ isOnHover: true });\n    }, _this.handleLeave = function () {\n      _this.setState({\n        isOnHover: false,\n        container: {},\n        shine: {},\n        layers: []\n      });\n    }, _this.renderShadow = function () {\n      return _jsx('div', {\n        style: _extends({}, styles.shadow, _this.state.isOnHover ? styles.shadowOnHover : {})\n      });\n    }, _this.renderLayers = function () {\n      return _jsx('div', {\n        style: styles.layers\n      }, void 0, _this.props.layers && _this.props.layers.map(function (imgSrc, idx) {\n        return _jsx('div', {\n          style: _extends({\n            backgroundImage: 'url(' + imgSrc + ')'\n          }, styles.renderedLayer, _this.state.layers[idx] ? _this.state.layers[idx] : {})\n        }, idx);\n      }));\n    }, _this.renderShine = function () {\n      return _jsx('div', {\n        style: _extends({}, styles.shine, _this.state.shine)\n      });\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  _createClass(AtvImg, [{\n    key: 'render',\n    value: function render() {\n      var _this2 = this;\n\n      if (this.props.isStatic) {\n        return _jsx('div', {\n          style: _extends({}, styles.root, this.props.style ? this.props.style : {}),\n          className: this.props.className || ''\n        }, void 0, _jsx('img', {\n          style: styles.staticFallback,\n          src: this.props.staticFallback\n        }));\n      }\n\n      return React.createElement(\n        'div',\n        {\n          style: _extends({}, styles.root, {\n            transform: 'perspective(' + this.state.rootElemWidth * 3 + 'px)'\n          }, this.props.style ? this.props.style : {}),\n          onMouseMove: this.handleMove,\n          onMouseEnter: this.handleEnter,\n          onMouseLeave: this.handleLeave,\n          onTouchMove: this.handleTouchMove,\n          onTouchStart: this.handleEnter,\n          onTouchEnd: this.handleLeave,\n          className: this.props.className || '',\n          ref: function ref(node) {\n            return _this2.node = node;\n          }\n        },\n        _jsx('div', {\n          style: _extends({}, styles.container, this.state.container)\n        }, void 0, this.renderShadow(), this.renderLayers(), this.renderShine())\n      );\n    }\n  }]);\n\n  return AtvImg;\n}(Component);\n\nexport default AtvImg;"
         },
         {
+          "id": "asTa",
+          "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/index.js",
+          "name": "./node_modules/react-img-atv/node_modules/react/index.js",
+          "index": 26,
+          "index2": 22,
+          "size": 190,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/dist/index.js",
+          "issuerId": "ZSdQ",
+          "issuerName": "./node_modules/react-img-atv/dist/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": "ZSdQ",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/dist/index.js",
+              "module": "./node_modules/react-img-atv/dist/index.js",
+              "moduleName": "./node_modules/react-img-atv/dist/index.js",
+              "type": "harmony import",
+              "userRequest": "react",
+              "loc": "13:0-41"
+            }
+          ],
+          "usedExports": [
+            "Component",
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 5,
+          "source": "'use strict';\n\nif (process.env.NODE_ENV === 'production') {\n  module.exports = require('./cjs/react.production.min.js');\n} else {\n  module.exports = require('./cjs/react.development.js');\n}\n"
+        },
+        {
+          "id": "ctcz",
+          "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+          "name": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+          "index": 27,
+          "index2": 21,
+          "size": 5611,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/index.js",
+          "issuerId": "asTa",
+          "issuerName": "./node_modules/react-img-atv/node_modules/react/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": "asTa",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/index.js",
+              "module": "./node_modules/react-img-atv/node_modules/react/index.js",
+              "moduleName": "./node_modules/react-img-atv/node_modules/react/index.js",
+              "type": "cjs require",
+              "userRequest": "./cjs/react.production.min.js",
+              "loc": "4:19-59"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 6,
+          "source": "/*\n React v16.0.0\n react.production.min.js\n\n Copyright (c) 2013-present, Facebook, Inc.\n\n This source code is licensed under the MIT license found in the\n LICENSE file in the root directory of this source tree.\n*/\n'use strict';var f=require(\"object-assign\"),p=require(\"fbjs/lib/emptyObject\");require(\"fbjs/lib/invariant\");var r=require(\"fbjs/lib/emptyFunction\");\nfunction t(a){for(var b=arguments.length-1,d=\"Minified React error #\"+a+\"; visit http://facebook.github.io/react/docs/error-decoder.html?invariant\\x3d\"+a,e=0;e<b;e++)d+=\"\\x26args[]\\x3d\"+encodeURIComponent(arguments[e+1]);b=Error(d+\" for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\");b.name=\"Invariant Violation\";b.framesToPop=1;throw b;}\nvar u={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}};function v(a,b,d){this.props=a;this.context=b;this.refs=p;this.updater=d||u}v.prototype.isReactComponent={};v.prototype.setState=function(a,b){\"object\"!==typeof a&&\"function\"!==typeof a&&null!=a?t(\"85\"):void 0;this.updater.enqueueSetState(this,a,b,\"setState\")};v.prototype.forceUpdate=function(a){this.updater.enqueueForceUpdate(this,a,\"forceUpdate\")};\nfunction w(a,b,d){this.props=a;this.context=b;this.refs=p;this.updater=d||u}function x(){}x.prototype=v.prototype;var y=w.prototype=new x;y.constructor=w;f(y,v.prototype);y.isPureReactComponent=!0;function z(a,b,d){this.props=a;this.context=b;this.refs=p;this.updater=d||u}var A=z.prototype=new x;A.constructor=z;f(A,v.prototype);A.unstable_isAsyncReactComponent=!0;A.render=function(){return this.props.children};\nvar B={Component:v,PureComponent:w,AsyncComponent:z},C={current:null},D=Object.prototype.hasOwnProperty,E=\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.element\")||60103,F={key:!0,ref:!0,__self:!0,__source:!0};function G(a,b,d,e,c,g,k){return{$$typeof:E,type:a,key:b,ref:d,props:k,_owner:g}}\nG.createElement=function(a,b,d){var e,c={},g=null,k=null,m=null,q=null;if(null!=b)for(e in void 0!==b.ref&&(k=b.ref),void 0!==b.key&&(g=\"\"+b.key),m=void 0===b.__self?null:b.__self,q=void 0===b.__source?null:b.__source,b)D.call(b,e)&&!F.hasOwnProperty(e)&&(c[e]=b[e]);var l=arguments.length-2;if(1===l)c.children=d;else if(1<l){for(var h=Array(l),n=0;n<l;n++)h[n]=arguments[n+2];c.children=h}if(a&&a.defaultProps)for(e in l=a.defaultProps,l)void 0===c[e]&&(c[e]=l[e]);return G(a,g,k,m,q,C.current,c)};\nG.createFactory=function(a){var b=G.createElement.bind(null,a);b.type=a;return b};G.cloneAndReplaceKey=function(a,b){return G(a.type,b,a.ref,a._self,a._source,a._owner,a.props)};\nG.cloneElement=function(a,b,d){var e=f({},a.props),c=a.key,g=a.ref,k=a._self,m=a._source,q=a._owner;if(null!=b){void 0!==b.ref&&(g=b.ref,q=C.current);void 0!==b.key&&(c=\"\"+b.key);if(a.type&&a.type.defaultProps)var l=a.type.defaultProps;for(h in b)D.call(b,h)&&!F.hasOwnProperty(h)&&(e[h]=void 0===b[h]&&void 0!==l?l[h]:b[h])}var h=arguments.length-2;if(1===h)e.children=d;else if(1<h){l=Array(h);for(var n=0;n<h;n++)l[n]=arguments[n+2];e.children=l}return G(a.type,c,g,k,m,q,e)};\nG.isValidElement=function(a){return\"object\"===typeof a&&null!==a&&a.$$typeof===E};var H=\"function\"===typeof Symbol&&Symbol.iterator,I=\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.element\")||60103;function escape(a){var b={\"\\x3d\":\"\\x3d0\",\":\":\"\\x3d2\"};return\"$\"+(\"\"+a).replace(/[=:]/g,function(a){return b[a]})}var J=/\\/+/g,K=[];\nfunction L(a,b,d,e){if(K.length){var c=K.pop();c.result=a;c.keyPrefix=b;c.func=d;c.context=e;c.count=0;return c}return{result:a,keyPrefix:b,func:d,context:e,count:0}}function M(a){a.result=null;a.keyPrefix=null;a.func=null;a.context=null;a.count=0;10>K.length&&K.push(a)}\nfunction N(a,b,d,e){var c=typeof a;if(\"undefined\"===c||\"boolean\"===c)a=null;if(null===a||\"string\"===c||\"number\"===c||\"object\"===c&&a.$$typeof===I)return d(e,a,\"\"===b?\".\"+O(a,0):b),1;var g=0;b=\"\"===b?\".\":b+\":\";if(Array.isArray(a))for(var k=0;k<a.length;k++){c=a[k];var m=b+O(c,k);g+=N(c,m,d,e)}else if(m=H&&a[H]||a[\"@@iterator\"],\"function\"===typeof m)for(a=m.call(a),k=0;!(c=a.next()).done;)c=c.value,m=b+O(c,k++),g+=N(c,m,d,e);else\"object\"===c&&(d=\"\"+a,t(\"31\",\"[object Object]\"===d?\"object with keys {\"+\nObject.keys(a).join(\", \")+\"}\":d,\"\"));return g}function O(a,b){return\"object\"===typeof a&&null!==a&&null!=a.key?escape(a.key):b.toString(36)}function P(a,b){a.func.call(a.context,b,a.count++)}function Q(a,b,d){var e=a.result,c=a.keyPrefix;a=a.func.call(a.context,b,a.count++);Array.isArray(a)?R(a,e,d,r.thatReturnsArgument):null!=a&&(G.isValidElement(a)&&(a=G.cloneAndReplaceKey(a,c+(!a.key||b&&b.key===a.key?\"\":(\"\"+a.key).replace(J,\"$\\x26/\")+\"/\")+d)),e.push(a))}\nfunction R(a,b,d,e,c){var g=\"\";null!=d&&(g=(\"\"+d).replace(J,\"$\\x26/\")+\"/\");b=L(b,g,e,c);null==a||N(a,\"\",Q,b);M(b)}var S={forEach:function(a,b,d){if(null==a)return a;b=L(null,null,b,d);null==a||N(a,\"\",P,b);M(b)},map:function(a,b,d){if(null==a)return a;var e=[];R(a,e,null,b,d);return e},count:function(a){return null==a?0:N(a,\"\",r.thatReturnsNull,null)},toArray:function(a){var b=[];R(a,b,null,r.thatReturnsArgument);return b}};\nmodule.exports={Children:{map:S.map,forEach:S.forEach,count:S.count,toArray:S.toArray,only:function(a){G.isValidElement(a)?void 0:t(\"143\");return a}},Component:B.Component,PureComponent:B.PureComponent,unstable_AsyncComponent:B.AsyncComponent,createElement:G.createElement,cloneElement:G.cloneElement,isValidElement:G.isValidElement,createFactory:G.createFactory,version:\"16.0.0\",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurrentOwner:C,assign:f}};\n"
+        },
+        {
           "id": "cxPT",
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/fbjs/lib/invariant.js",
           "name": "./node_modules/fbjs/lib/invariant.js",
-          "index": 11,
-          "index2": 2,
+          "index": 14,
+          "index2": 10,
           "size": 1506,
           "cacheable": true,
           "built": true,
@@ -820,15 +908,6 @@
               "loc": "11:37-66"
             },
             {
-              "moduleId": "vttU",
-              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-              "module": "./node_modules/react/cjs/react.production.min.js",
-              "moduleName": "./node_modules/react/cjs/react.production.min.js",
-              "type": "cjs require",
-              "userRequest": "fbjs/lib/invariant",
-              "loc": "10:78-107"
-            },
-            {
               "moduleId": "Q4WQ",
               "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/prop-types/factoryWithThrowingShims.js",
               "module": "./node_modules/prop-types/factoryWithThrowingShims.js",
@@ -836,6 +915,15 @@
               "type": "cjs require",
               "userRequest": "fbjs/lib/invariant",
               "loc": "11:16-45"
+            },
+            {
+              "moduleId": "ctcz",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+              "module": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+              "moduleName": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+              "type": "cjs require",
+              "userRequest": "fbjs/lib/invariant",
+              "loc": "10:78-107"
             }
           ],
           "usedExports": true,
@@ -886,8 +974,8 @@
           "id": "e6+Q",
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/fbjs/lib/emptyFunction.js",
           "name": "./node_modules/fbjs/lib/emptyFunction.js",
-          "index": 12,
-          "index2": 3,
+          "index": 11,
+          "index2": 2,
           "size": 959,
           "cacheable": true,
           "built": true,
@@ -920,7 +1008,7 @@
               "moduleName": "./node_modules/react/cjs/react.production.min.js",
               "type": "cjs require",
               "userRequest": "fbjs/lib/emptyFunction",
-              "loc": "10:114-147"
+              "loc": "9:80-113"
             },
             {
               "moduleId": "o+pC",
@@ -939,6 +1027,15 @@
               "type": "cjs require",
               "userRequest": "fbjs/lib/emptyFunction",
               "loc": "10:20-53"
+            },
+            {
+              "moduleId": "ctcz",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+              "module": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+              "moduleName": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+              "type": "cjs require",
+              "userRequest": "fbjs/lib/emptyFunction",
+              "loc": "10:114-147"
             }
           ],
           "usedExports": true,
@@ -952,7 +1049,7 @@
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/babel-loader/lib/index.js!/home/travis/build/Kikobeats/react-atv-logo/src/app/index.js",
           "name": "./src/app/index.js",
           "index": 1,
-          "index2": 30,
+          "index2": 32,
           "size": 1455,
           "cacheable": true,
           "built": true,
@@ -1027,8 +1124,8 @@
           "id": "gt/O",
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/prop-types/lib/ReactPropTypesSecret.js",
           "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-          "index": 28,
-          "index2": 21,
+          "index": 30,
+          "index2": 23,
           "size": 314,
           "cacheable": true,
           "built": true,
@@ -1062,76 +1159,11 @@
           "source": "/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n'use strict';\n\nvar ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';\n\nmodule.exports = ReactPropTypesSecret;\n"
         },
         {
-          "id": "uO0E",
-          "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/fbjs/lib/isTextNode.js",
-          "name": "./node_modules/fbjs/lib/isTextNode.js",
-          "index": 19,
-          "index2": 15,
-          "size": 479,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/fbjs/lib/containsNode.js",
-          "issuerId": "2B9T",
-          "issuerName": "./node_modules/fbjs/lib/containsNode.js",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": "2B9T",
-              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/fbjs/lib/containsNode.js",
-              "module": "./node_modules/fbjs/lib/containsNode.js",
-              "moduleName": "./node_modules/fbjs/lib/containsNode.js",
-              "type": "cjs require",
-              "userRequest": "./isTextNode",
-              "loc": "12:17-40"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 5,
-          "source": "'use strict';\n\n/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n *\n * @typechecks\n */\n\nvar isNode = require('./isNode');\n\n/**\n * @param {*} object The object to check.\n * @return {boolean} Whether or not the object is a DOM text node.\n */\nfunction isTextNode(object) {\n  return isNode(object) && object.nodeType == 3;\n}\n\nmodule.exports = isTextNode;"
-        },
-        {
-          "id": 0,
-          "identifier": "multi ./src/app/index.js",
-          "name": "multi ./src/app/index.js",
-          "index": 0,
-          "index2": 31,
-          "size": 28,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": null,
-          "issuerId": null,
-          "issuerName": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 0
-        },
-        {
           "id": "lx7a",
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-hot-loader/lib/AppContainer.js",
           "name": "./node_modules/react-hot-loader/lib/AppContainer.js",
           "index": 5,
-          "index2": 7,
+          "index2": 6,
           "size": 223,
           "cacheable": true,
           "built": true,
@@ -1163,6 +1195,33 @@
           "optimizationBailout": [],
           "depth": 5,
           "source": "'use strict';\n\n/* eslint-disable global-require */\n\nif (!module.hot || process.env.NODE_ENV === 'production') {\n  module.exports = require('./AppContainer.prod');\n} else {\n  module.exports = require('./AppContainer.dev');\n}"
+        },
+        {
+          "id": 0,
+          "identifier": "multi ./src/app/index.js",
+          "name": "multi ./src/app/index.js",
+          "index": 0,
+          "index2": 33,
+          "size": 28,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0
         },
         {
           "id": "o+pC",
@@ -1206,8 +1265,8 @@
           "id": "qrie",
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--1-0!/home/travis/build/Kikobeats/react-atv-logo/node_modules/style-loader/index.js!/home/travis/build/Kikobeats/react-atv-logo/node_modules/css-loader/index.js??ref--1-2!/home/travis/build/Kikobeats/react-atv-logo/node_modules/postcss-loader/lib/index.js??ref--1-3!/home/travis/build/Kikobeats/react-atv-logo/node_modules/sass-loader/lib/loader.js??ref--1-4!/home/travis/build/Kikobeats/react-atv-logo/src/app/index.scss",
           "name": "./src/app/index.scss",
-          "index": 30,
-          "index2": 28,
+          "index": 32,
+          "index2": 30,
           "size": 41,
           "cacheable": true,
           "built": true,
@@ -1245,7 +1304,7 @@
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/babel-loader/lib/index.js!/home/travis/build/Kikobeats/react-atv-logo/src/app/App/index.js",
           "name": "./src/app/App/index.js",
           "index": 23,
-          "index2": 27,
+          "index2": 29,
           "size": 3704,
           "cacheable": true,
           "built": true,
@@ -1287,7 +1346,7 @@
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-hot-loader/index.js",
           "name": "./node_modules/react-hot-loader/index.js",
           "index": 2,
-          "index2": 10,
+          "index2": 9,
           "size": 40,
           "cacheable": true,
           "built": true,
@@ -1327,7 +1386,7 @@
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-hot-loader/lib/AppContainer.prod.js",
           "name": "./node_modules/react-hot-loader/lib/AppContainer.prod.js",
           "index": 6,
-          "index2": 6,
+          "index2": 5,
           "size": 2207,
           "cacheable": true,
           "built": true,
@@ -1402,8 +1461,8 @@
           "id": "t8iB",
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/offline-plugin/runtime.js",
           "name": "./node_modules/offline-plugin/runtime.js",
-          "index": 31,
-          "index2": 29,
+          "index": 33,
+          "index2": 31,
           "size": 1717,
           "cacheable": true,
           "built": true,
@@ -1437,12 +1496,50 @@
           "source": "var appCacheIframe;\n\nfunction hasSW() {\n  return 'serviceWorker' in navigator &&\n    // This is how I block Chrome 40 and detect Chrome 41, because first has\n    // bugs with history.pustState and/or hashchange\n    (window.fetch || 'imageRendering' in document.documentElement.style) &&\n    (window.location.protocol === 'https:' || window.location.hostname === 'localhost' || window.location.hostname.indexOf('127.') === 0)\n}\n\nfunction install(options) {\n  options || (options = {});\n\n  \n    if (hasSW()) {\n      var registration = navigator.serviceWorker\n        .register(\n          \"sw.js\"\n          \n        );\n\n      \n\n      return;\n    }\n  \n\n  \n    if (window.applicationCache) {\n      var directory = \"appcache/\";\n      var name = \"manifest\";\n\n      var doLoad = function() {\n        var page = directory + name + '.html';\n        var iframe = document.createElement('iframe');\n\n        \n\n        iframe.src = page;\n        iframe.style.display = 'none';\n\n        appCacheIframe = iframe;\n        document.body.appendChild(iframe);\n      };\n\n      if (document.readyState === 'complete') {\n        setTimeout(doLoad);\n      } else {\n        window.addEventListener('load', doLoad);\n      }\n\n      return;\n    }\n  \n}\n\nfunction applyUpdate(callback, errback) {\n  \n\n  \n}\n\nfunction update() {\n  \n    if (hasSW()) {\n      navigator.serviceWorker.getRegistration().then(function(registration) {\n        if (!registration) return;\n        return registration.update();\n      });\n    }\n  \n\n  \n    if (appCacheIframe) {\n      try {\n        appCacheIframe.contentWindow.applicationCache.update();\n      } catch (e) {}\n    }\n  \n}\n\n\n\nexports.install = install;\nexports.applyUpdate = applyUpdate;\nexports.update = update;\n"
         },
         {
+          "id": "uO0E",
+          "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/fbjs/lib/isTextNode.js",
+          "name": "./node_modules/fbjs/lib/isTextNode.js",
+          "index": 19,
+          "index2": 15,
+          "size": 479,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/fbjs/lib/containsNode.js",
+          "issuerId": "2B9T",
+          "issuerName": "./node_modules/fbjs/lib/containsNode.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": "2B9T",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/fbjs/lib/containsNode.js",
+              "module": "./node_modules/fbjs/lib/containsNode.js",
+              "moduleName": "./node_modules/fbjs/lib/containsNode.js",
+              "type": "cjs require",
+              "userRequest": "./isTextNode",
+              "loc": "12:17-40"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 5,
+          "source": "'use strict';\n\n/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n *\n * @typechecks\n */\n\nvar isNode = require('./isNode');\n\n/**\n * @param {*} object The object to check.\n * @return {boolean} Whether or not the object is a DOM text node.\n */\nfunction isTextNode(object) {\n  return isNode(object) && object.nodeType == 3;\n}\n\nmodule.exports = isTextNode;"
+        },
+        {
           "id": "vttU",
           "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
           "name": "./node_modules/react/cjs/react.production.min.js",
           "index": 8,
-          "index2": 4,
-          "size": 5611,
+          "index2": 3,
+          "size": 5363,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1472,7 +1569,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "/*\n React v16.0.0\n react.production.min.js\n\n Copyright (c) 2013-present, Facebook, Inc.\n\n This source code is licensed under the MIT license found in the\n LICENSE file in the root directory of this source tree.\n*/\n'use strict';var f=require(\"object-assign\"),p=require(\"fbjs/lib/emptyObject\");require(\"fbjs/lib/invariant\");var r=require(\"fbjs/lib/emptyFunction\");\nfunction t(a){for(var b=arguments.length-1,d=\"Minified React error #\"+a+\"; visit http://facebook.github.io/react/docs/error-decoder.html?invariant\\x3d\"+a,e=0;e<b;e++)d+=\"\\x26args[]\\x3d\"+encodeURIComponent(arguments[e+1]);b=Error(d+\" for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\");b.name=\"Invariant Violation\";b.framesToPop=1;throw b;}\nvar u={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}};function v(a,b,d){this.props=a;this.context=b;this.refs=p;this.updater=d||u}v.prototype.isReactComponent={};v.prototype.setState=function(a,b){\"object\"!==typeof a&&\"function\"!==typeof a&&null!=a?t(\"85\"):void 0;this.updater.enqueueSetState(this,a,b,\"setState\")};v.prototype.forceUpdate=function(a){this.updater.enqueueForceUpdate(this,a,\"forceUpdate\")};\nfunction w(a,b,d){this.props=a;this.context=b;this.refs=p;this.updater=d||u}function x(){}x.prototype=v.prototype;var y=w.prototype=new x;y.constructor=w;f(y,v.prototype);y.isPureReactComponent=!0;function z(a,b,d){this.props=a;this.context=b;this.refs=p;this.updater=d||u}var A=z.prototype=new x;A.constructor=z;f(A,v.prototype);A.unstable_isAsyncReactComponent=!0;A.render=function(){return this.props.children};\nvar B={Component:v,PureComponent:w,AsyncComponent:z},C={current:null},D=Object.prototype.hasOwnProperty,E=\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.element\")||60103,F={key:!0,ref:!0,__self:!0,__source:!0};function G(a,b,d,e,c,g,k){return{$$typeof:E,type:a,key:b,ref:d,props:k,_owner:g}}\nG.createElement=function(a,b,d){var e,c={},g=null,k=null,m=null,q=null;if(null!=b)for(e in void 0!==b.ref&&(k=b.ref),void 0!==b.key&&(g=\"\"+b.key),m=void 0===b.__self?null:b.__self,q=void 0===b.__source?null:b.__source,b)D.call(b,e)&&!F.hasOwnProperty(e)&&(c[e]=b[e]);var l=arguments.length-2;if(1===l)c.children=d;else if(1<l){for(var h=Array(l),n=0;n<l;n++)h[n]=arguments[n+2];c.children=h}if(a&&a.defaultProps)for(e in l=a.defaultProps,l)void 0===c[e]&&(c[e]=l[e]);return G(a,g,k,m,q,C.current,c)};\nG.createFactory=function(a){var b=G.createElement.bind(null,a);b.type=a;return b};G.cloneAndReplaceKey=function(a,b){return G(a.type,b,a.ref,a._self,a._source,a._owner,a.props)};\nG.cloneElement=function(a,b,d){var e=f({},a.props),c=a.key,g=a.ref,k=a._self,m=a._source,q=a._owner;if(null!=b){void 0!==b.ref&&(g=b.ref,q=C.current);void 0!==b.key&&(c=\"\"+b.key);if(a.type&&a.type.defaultProps)var l=a.type.defaultProps;for(h in b)D.call(b,h)&&!F.hasOwnProperty(h)&&(e[h]=void 0===b[h]&&void 0!==l?l[h]:b[h])}var h=arguments.length-2;if(1===h)e.children=d;else if(1<h){l=Array(h);for(var n=0;n<h;n++)l[n]=arguments[n+2];e.children=l}return G(a.type,c,g,k,m,q,e)};\nG.isValidElement=function(a){return\"object\"===typeof a&&null!==a&&a.$$typeof===E};var H=\"function\"===typeof Symbol&&Symbol.iterator,I=\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.element\")||60103;function escape(a){var b={\"\\x3d\":\"\\x3d0\",\":\":\"\\x3d2\"};return\"$\"+(\"\"+a).replace(/[=:]/g,function(a){return b[a]})}var J=/\\/+/g,K=[];\nfunction L(a,b,d,e){if(K.length){var c=K.pop();c.result=a;c.keyPrefix=b;c.func=d;c.context=e;c.count=0;return c}return{result:a,keyPrefix:b,func:d,context:e,count:0}}function M(a){a.result=null;a.keyPrefix=null;a.func=null;a.context=null;a.count=0;10>K.length&&K.push(a)}\nfunction N(a,b,d,e){var c=typeof a;if(\"undefined\"===c||\"boolean\"===c)a=null;if(null===a||\"string\"===c||\"number\"===c||\"object\"===c&&a.$$typeof===I)return d(e,a,\"\"===b?\".\"+O(a,0):b),1;var g=0;b=\"\"===b?\".\":b+\":\";if(Array.isArray(a))for(var k=0;k<a.length;k++){c=a[k];var m=b+O(c,k);g+=N(c,m,d,e)}else if(m=H&&a[H]||a[\"@@iterator\"],\"function\"===typeof m)for(a=m.call(a),k=0;!(c=a.next()).done;)c=c.value,m=b+O(c,k++),g+=N(c,m,d,e);else\"object\"===c&&(d=\"\"+a,t(\"31\",\"[object Object]\"===d?\"object with keys {\"+\nObject.keys(a).join(\", \")+\"}\":d,\"\"));return g}function O(a,b){return\"object\"===typeof a&&null!==a&&null!=a.key?escape(a.key):b.toString(36)}function P(a,b){a.func.call(a.context,b,a.count++)}function Q(a,b,d){var e=a.result,c=a.keyPrefix;a=a.func.call(a.context,b,a.count++);Array.isArray(a)?R(a,e,d,r.thatReturnsArgument):null!=a&&(G.isValidElement(a)&&(a=G.cloneAndReplaceKey(a,c+(!a.key||b&&b.key===a.key?\"\":(\"\"+a.key).replace(J,\"$\\x26/\")+\"/\")+d)),e.push(a))}\nfunction R(a,b,d,e,c){var g=\"\";null!=d&&(g=(\"\"+d).replace(J,\"$\\x26/\")+\"/\");b=L(b,g,e,c);null==a||N(a,\"\",Q,b);M(b)}var S={forEach:function(a,b,d){if(null==a)return a;b=L(null,null,b,d);null==a||N(a,\"\",P,b);M(b)},map:function(a,b,d){if(null==a)return a;var e=[];R(a,e,null,b,d);return e},count:function(a){return null==a?0:N(a,\"\",r.thatReturnsNull,null)},toArray:function(a){var b=[];R(a,b,null,r.thatReturnsArgument);return b}};\nmodule.exports={Children:{map:S.map,forEach:S.forEach,count:S.count,toArray:S.toArray,only:function(a){G.isValidElement(a)?void 0:t(\"143\");return a}},Component:B.Component,PureComponent:B.PureComponent,unstable_AsyncComponent:B.AsyncComponent,createElement:G.createElement,cloneElement:G.cloneElement,isValidElement:G.isValidElement,createFactory:G.createFactory,version:\"16.0.0\",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurrentOwner:C,assign:f}};\n"
+          "source": "/** @license React v16.1.0\n * react.production.min.js\n *\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n'use strict';var m=require(\"object-assign\"),n=require(\"fbjs/lib/emptyObject\"),p=require(\"fbjs/lib/emptyFunction\");\nfunction q(a){for(var b=arguments.length-1,e=\"Minified React error #\"+a+\"; visit http://facebook.github.io/react/docs/error-decoder.html?invariant\\x3d\"+a,d=0;d<b;d++)e+=\"\\x26args[]\\x3d\"+encodeURIComponent(arguments[d+1]);b=Error(e+\" for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\");b.name=\"Invariant Violation\";b.framesToPop=1;throw b;}\nvar r={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}};function t(a,b,e){this.props=a;this.context=b;this.refs=n;this.updater=e||r}t.prototype.isReactComponent={};t.prototype.setState=function(a,b){\"object\"!==typeof a&&\"function\"!==typeof a&&null!=a?q(\"85\"):void 0;this.updater.enqueueSetState(this,a,b,\"setState\")};t.prototype.forceUpdate=function(a){this.updater.enqueueForceUpdate(this,a,\"forceUpdate\")};\nfunction u(a,b,e){this.props=a;this.context=b;this.refs=n;this.updater=e||r}function v(){}v.prototype=t.prototype;var w=u.prototype=new v;w.constructor=u;m(w,t.prototype);w.isPureReactComponent=!0;function x(a,b,e){this.props=a;this.context=b;this.refs=n;this.updater=e||r}var y=x.prototype=new v;y.constructor=x;m(y,t.prototype);y.unstable_isAsyncReactComponent=!0;y.render=function(){return this.props.children};\nvar z={current:null},A=Object.prototype.hasOwnProperty,B=\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.element\")||60103,C={key:!0,ref:!0,__self:!0,__source:!0};\nfunction D(a,b,e){var d,c={},h=null,k=null;if(null!=b)for(d in void 0!==b.ref&&(k=b.ref),void 0!==b.key&&(h=\"\"+b.key),b)A.call(b,d)&&!C.hasOwnProperty(d)&&(c[d]=b[d]);var f=arguments.length-2;if(1===f)c.children=e;else if(1<f){for(var g=Array(f),l=0;l<f;l++)g[l]=arguments[l+2];c.children=g}if(a&&a.defaultProps)for(d in f=a.defaultProps,f)void 0===c[d]&&(c[d]=f[d]);return{$$typeof:B,type:a,key:h,ref:k,props:c,_owner:z.current}}function E(a){return\"object\"===typeof a&&null!==a&&a.$$typeof===B}\nvar F=\"function\"===typeof Symbol&&Symbol.iterator,G=\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.element\")||60103,H=\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.portal\")||60106;function escape(a){var b={\"\\x3d\":\"\\x3d0\",\":\":\"\\x3d2\"};return\"$\"+(\"\"+a).replace(/[=:]/g,function(a){return b[a]})}var I=/\\/+/g,J=[];\nfunction K(a,b,e,d){if(J.length){var c=J.pop();c.result=a;c.keyPrefix=b;c.func=e;c.context=d;c.count=0;return c}return{result:a,keyPrefix:b,func:e,context:d,count:0}}function L(a){a.result=null;a.keyPrefix=null;a.func=null;a.context=null;a.count=0;10>J.length&&J.push(a)}\nfunction M(a,b,e,d){var c=typeof a;if(\"undefined\"===c||\"boolean\"===c)a=null;if(null===a||\"string\"===c||\"number\"===c||\"object\"===c&&a.$$typeof===G||\"object\"===c&&a.$$typeof===H)return e(d,a,\"\"===b?\".\"+N(a,0):b),1;var h=0;b=\"\"===b?\".\":b+\":\";if(Array.isArray(a))for(var k=0;k<a.length;k++){c=a[k];var f=b+N(c,k);h+=M(c,f,e,d)}else if(f=F&&a[F]||a[\"@@iterator\"],\"function\"===typeof f)for(a=f.call(a),k=0;!(c=a.next()).done;)c=c.value,f=b+N(c,k++),h+=M(c,f,e,d);else\"object\"===c&&(e=\"\"+a,q(\"31\",\"[object Object]\"===\ne?\"object with keys {\"+Object.keys(a).join(\", \")+\"}\":e,\"\"));return h}function N(a,b){return\"object\"===typeof a&&null!==a&&null!=a.key?escape(a.key):b.toString(36)}function O(a,b){a.func.call(a.context,b,a.count++)}\nfunction P(a,b,e){var d=a.result,c=a.keyPrefix;a=a.func.call(a.context,b,a.count++);Array.isArray(a)?Q(a,d,e,p.thatReturnsArgument):null!=a&&(E(a)&&(b=c+(!a.key||b&&b.key===a.key?\"\":(\"\"+a.key).replace(I,\"$\\x26/\")+\"/\")+e,a={$$typeof:B,type:a.type,key:b,ref:a.ref,props:a.props,_owner:a._owner}),d.push(a))}function Q(a,b,e,d,c){var h=\"\";null!=e&&(h=(\"\"+e).replace(I,\"$\\x26/\")+\"/\");b=K(b,h,d,c);null==a||M(a,\"\",P,b);L(b)}\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.fragment\");\nvar R={Children:{map:function(a,b,e){if(null==a)return a;var d=[];Q(a,d,null,b,e);return d},forEach:function(a,b,e){if(null==a)return a;b=K(null,null,b,e);null==a||M(a,\"\",O,b);L(b)},count:function(a){return null==a?0:M(a,\"\",p.thatReturnsNull,null)},toArray:function(a){var b=[];Q(a,b,null,p.thatReturnsArgument);return b},only:function(a){E(a)?void 0:q(\"143\");return a}},Component:t,PureComponent:u,unstable_AsyncComponent:x,createElement:D,cloneElement:function(a,b,e){var d=m({},a.props),c=a.key,h=a.ref,\nk=a._owner;if(null!=b){void 0!==b.ref&&(h=b.ref,k=z.current);void 0!==b.key&&(c=\"\"+b.key);if(a.type&&a.type.defaultProps)var f=a.type.defaultProps;for(g in b)A.call(b,g)&&!C.hasOwnProperty(g)&&(d[g]=void 0===b[g]&&void 0!==f?f[g]:b[g])}var g=arguments.length-2;if(1===g)d.children=e;else if(1<g){f=Array(g);for(var l=0;l<g;l++)f[l]=arguments[l+2];d.children=f}return{$$typeof:B,type:a.type,key:c,ref:h,props:d,_owner:k}},createFactory:function(a){var b=D.bind(null,a);b.type=a;return b},isValidElement:E,\nversion:\"16.1.0\",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurrentOwner:z,assign:m}},S=Object.freeze({default:R}),T=S&&R||S;module.exports=T[\"default\"]?T[\"default\"]:T;\n"
         }
       ],
       "filteredModules": 0,
@@ -1514,7 +1611,7 @@
       "id": "/OLF",
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
       "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-      "index": 14,
+      "index": 13,
       "index2": 19,
       "size": 108200,
       "cacheable": true,
@@ -1552,8 +1649,8 @@
       "id": "08V/",
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/dist/styles.js",
       "name": "./node_modules/react-img-atv/dist/styles.js",
-      "index": 29,
-      "index2": 24,
+      "index": 31,
+      "index2": 26,
       "size": 1402,
       "cacheable": true,
       "built": true,
@@ -1704,6 +1801,15 @@
           "moduleName": "./node_modules/react/cjs/react.production.min.js",
           "type": "cjs require",
           "userRequest": "object-assign",
+          "loc": "9:19-43"
+        },
+        {
+          "moduleId": "ctcz",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+          "module": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+          "moduleName": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+          "type": "cjs require",
+          "userRequest": "object-assign",
           "loc": "10:19-43"
         }
       ],
@@ -1718,7 +1824,7 @@
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/babel-loader/lib/index.js!/home/travis/build/Kikobeats/react-atv-logo/src/app/Card/index.js",
       "name": "./src/app/Card/index.js",
       "index": 24,
-      "index2": 26,
+      "index2": 28,
       "size": 838,
       "cacheable": true,
       "built": true,
@@ -1760,7 +1866,7 @@
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/index.js",
       "name": "./node_modules/react/index.js",
       "index": 7,
-      "index2": 5,
+      "index2": 4,
       "size": 190,
       "cacheable": true,
       "built": true,
@@ -1814,15 +1920,6 @@
           "loc": "5:0-26"
         },
         {
-          "moduleId": "ZSdQ",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/dist/index.js",
-          "module": "./node_modules/react-img-atv/dist/index.js",
-          "moduleName": "./node_modules/react-img-atv/dist/index.js",
-          "type": "harmony import",
-          "userRequest": "react",
-          "loc": "13:0-41"
-        },
-        {
           "moduleId": "sGP0",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-hot-loader/lib/AppContainer.prod.js",
           "module": "./node_modules/react-hot-loader/lib/AppContainer.prod.js",
@@ -1843,7 +1940,7 @@
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-hot-loader/lib/index.js",
       "name": "./node_modules/react-hot-loader/lib/index.js",
       "index": 3,
-      "index2": 9,
+      "index2": 8,
       "size": 209,
       "cacheable": true,
       "built": true,
@@ -1918,8 +2015,8 @@
       "id": "KSGD",
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/prop-types/index.js",
       "name": "./node_modules/prop-types/index.js",
-      "index": 26,
-      "index2": 23,
+      "index": 28,
+      "index2": 25,
       "size": 956,
       "cacheable": true,
       "built": true,
@@ -1957,7 +2054,7 @@
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-hot-loader/lib/index.prod.js",
       "name": "./node_modules/react-hot-loader/lib/index.prod.js",
       "index": 4,
-      "index2": 8,
+      "index2": 7,
       "size": 71,
       "cacheable": true,
       "built": true,
@@ -1994,7 +2091,7 @@
       "id": "O27J",
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/index.js",
       "name": "./node_modules/react-dom/index.js",
-      "index": 13,
+      "index": 12,
       "index2": 20,
       "size": 1363,
       "cacheable": true,
@@ -2034,8 +2131,8 @@
       "id": "Q4WQ",
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/prop-types/factoryWithThrowingShims.js",
       "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
-      "index": 27,
-      "index2": 22,
+      "index": 29,
+      "index2": 24,
       "size": 1492,
       "cacheable": true,
       "built": true,
@@ -2106,6 +2203,15 @@
           "moduleName": "./node_modules/react/cjs/react.production.min.js",
           "type": "cjs require",
           "userRequest": "fbjs/lib/emptyObject",
+          "loc": "9:46-77"
+        },
+        {
+          "moduleId": "ctcz",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+          "module": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+          "moduleName": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/emptyObject",
           "loc": "10:46-77"
         }
       ],
@@ -2120,7 +2226,7 @@
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/dist/index.js",
       "name": "./node_modules/react-img-atv/dist/index.js",
       "index": 25,
-      "index2": 25,
+      "index2": 27,
       "size": 8657,
       "cacheable": true,
       "built": true,
@@ -2158,11 +2264,90 @@
       "source": "var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _jsx = function () { var REACT_ELEMENT_TYPE = typeof Symbol === \"function\" && Symbol.for && Symbol.for(\"react.element\") || 0xeac7; return function createRawReactElement(type, props, key, children) { var defaultProps = type && type.defaultProps; var childrenLength = arguments.length - 3; if (!props && childrenLength !== 0) { props = {}; } if (props && defaultProps) { for (var propName in defaultProps) { if (props[propName] === void 0) { props[propName] = defaultProps[propName]; } } } else if (!props) { props = defaultProps || {}; } if (childrenLength === 1) { props.children = children; } else if (childrenLength > 1) { var childArray = Array(childrenLength); for (var i = 0; i < childrenLength; i++) { childArray[i] = arguments[i + 3]; } props.children = childArray; } return { $$typeof: REACT_ELEMENT_TYPE, type: type, key: key === undefined ? null : '' + key, ref: null, props: props, _owner: null }; }; }();\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nimport React, { Component } from 'react';\nimport PropTypes from 'prop-types';\n\nimport styles from './styles';\n\nvar AtvImg = function (_Component) {\n  _inherits(AtvImg, _Component);\n\n  function AtvImg() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, AtvImg);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = AtvImg.__proto__ || Object.getPrototypeOf(AtvImg)).call.apply(_ref, [this].concat(args))), _this), _this.state = {\n      rootElemWidth: 0,\n      rootElemHeight: 0,\n      isOnHover: false,\n      container: {},\n      shine: {},\n      layers: []\n    }, _this.componentDidMount = function () {\n      if (!_this.props.isStatic) {\n        _this.setState({\n          // eslint-disable-line react/no-did-mount-set-state\n          // this is a legit use case. we must trigger a re-render. don't worry.\n          rootElemWidth: _this.node.clientWidth || _this.node.offsetWidth || _this.node.scrollWidth,\n          rootElemHeight: _this.node.clientHeight || _this.node.offsetHeight || _this.node.scrollHeight\n        });\n      }\n    }, _this.handleMove = function (_ref2) {\n      var pageX = _ref2.pageX,\n          pageY = _ref2.pageY;\n\n      var layerCount = _this.props.layers.length; // the number of layers\n\n      var _this$state = _this.state,\n          rootElemWidth = _this$state.rootElemWidth,\n          rootElemHeight = _this$state.rootElemHeight;\n\n\n      var bodyScrollTop = document.body.scrollTop || document.getElementsByTagName('html')[0].scrollTop;\n      var bodyScrollLeft = document.body.scrollLeft;\n      var offsets = _this.node.getBoundingClientRect();\n      var wMultiple = 320 / rootElemWidth;\n      var offsetX = 0.52 - (pageX - offsets.left - bodyScrollLeft) / rootElemWidth; // cursor position X\n      var offsetY = 0.52 - (pageY - offsets.top - bodyScrollTop) / rootElemHeight; // cursor position Y\n      var dy = pageY - offsets.top - bodyScrollTop - rootElemHeight / 2; // center Y of container\n      var dx = pageX - offsets.left - bodyScrollLeft - rootElemWidth / 2; // center X of container\n      var yRotate = (offsetX - dx) * (0.07 * wMultiple); // rotation for container Y\n      var xRotate = (dy - offsetY) * (0.1 * wMultiple); // rotation for container X\n\n      var arad = Math.atan2(dy, dx); // angle between cursor and center of container in RAD\n\n      var rawAngle = arad * 180 / Math.PI - 90; // convert rad to degrees\n      var angle = rawAngle < 0 ? rawAngle + 360 : rawAngle;\n\n      _this.setState({\n        container: {\n          transform: 'rotateX(' + xRotate + 'deg) rotateY(' + yRotate + 'deg)' + (_this.state.isOnHover ? ' scale3d(1.07,1.07,1.07)' : '')\n        },\n        shine: {\n          background: 'linear-gradient(' + angle + 'deg, rgba(255, 255, 255, ' + (pageY - offsets.top - bodyScrollTop) / rootElemHeight * 0.4 + ') 0%, rgba(255, 255, 255, 0) 80%)',\n          transform: 'translateX(' + (offsetX * layerCount - 0.1) + 'px) translateY(' + (offsetY * layerCount - 0.1) + 'px)'\n        },\n        layers: _this.props.layers.map(function (_, idx) {\n          return {\n            transform: 'translateX(' + offsetX * (layerCount - idx) * (idx * 2.5 / wMultiple) + 'px) translateY(' + offsetY * layerCount * (idx * 2.5 / wMultiple) + 'px)'\n          };\n        })\n      });\n    }, _this.handleTouchMove = function (evt) {\n      evt.preventDefault();\n      var _evt$touches$ = evt.touches[0],\n          pageX = _evt$touches$.pageX,\n          pageY = _evt$touches$.pageY;\n\n      _this.handleMove({ pageX: pageX, pageY: pageY });\n    }, _this.handleEnter = function () {\n      _this.setState({ isOnHover: true });\n    }, _this.handleLeave = function () {\n      _this.setState({\n        isOnHover: false,\n        container: {},\n        shine: {},\n        layers: []\n      });\n    }, _this.renderShadow = function () {\n      return _jsx('div', {\n        style: _extends({}, styles.shadow, _this.state.isOnHover ? styles.shadowOnHover : {})\n      });\n    }, _this.renderLayers = function () {\n      return _jsx('div', {\n        style: styles.layers\n      }, void 0, _this.props.layers && _this.props.layers.map(function (imgSrc, idx) {\n        return _jsx('div', {\n          style: _extends({\n            backgroundImage: 'url(' + imgSrc + ')'\n          }, styles.renderedLayer, _this.state.layers[idx] ? _this.state.layers[idx] : {})\n        }, idx);\n      }));\n    }, _this.renderShine = function () {\n      return _jsx('div', {\n        style: _extends({}, styles.shine, _this.state.shine)\n      });\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  _createClass(AtvImg, [{\n    key: 'render',\n    value: function render() {\n      var _this2 = this;\n\n      if (this.props.isStatic) {\n        return _jsx('div', {\n          style: _extends({}, styles.root, this.props.style ? this.props.style : {}),\n          className: this.props.className || ''\n        }, void 0, _jsx('img', {\n          style: styles.staticFallback,\n          src: this.props.staticFallback\n        }));\n      }\n\n      return React.createElement(\n        'div',\n        {\n          style: _extends({}, styles.root, {\n            transform: 'perspective(' + this.state.rootElemWidth * 3 + 'px)'\n          }, this.props.style ? this.props.style : {}),\n          onMouseMove: this.handleMove,\n          onMouseEnter: this.handleEnter,\n          onMouseLeave: this.handleLeave,\n          onTouchMove: this.handleTouchMove,\n          onTouchStart: this.handleEnter,\n          onTouchEnd: this.handleLeave,\n          className: this.props.className || '',\n          ref: function ref(node) {\n            return _this2.node = node;\n          }\n        },\n        _jsx('div', {\n          style: _extends({}, styles.container, this.state.container)\n        }, void 0, this.renderShadow(), this.renderLayers(), this.renderShine())\n      );\n    }\n  }]);\n\n  return AtvImg;\n}(Component);\n\nexport default AtvImg;"
     },
     {
+      "id": "asTa",
+      "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/index.js",
+      "name": "./node_modules/react-img-atv/node_modules/react/index.js",
+      "index": 26,
+      "index2": 22,
+      "size": 190,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/dist/index.js",
+      "issuerId": "ZSdQ",
+      "issuerName": "./node_modules/react-img-atv/dist/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": "ZSdQ",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/dist/index.js",
+          "module": "./node_modules/react-img-atv/dist/index.js",
+          "moduleName": "./node_modules/react-img-atv/dist/index.js",
+          "type": "harmony import",
+          "userRequest": "react",
+          "loc": "13:0-41"
+        }
+      ],
+      "usedExports": [
+        "Component",
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 5,
+      "source": "'use strict';\n\nif (process.env.NODE_ENV === 'production') {\n  module.exports = require('./cjs/react.production.min.js');\n} else {\n  module.exports = require('./cjs/react.development.js');\n}\n"
+    },
+    {
+      "id": "ctcz",
+      "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+      "name": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+      "index": 27,
+      "index2": 21,
+      "size": 5611,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/index.js",
+      "issuerId": "asTa",
+      "issuerName": "./node_modules/react-img-atv/node_modules/react/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": "asTa",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/index.js",
+          "module": "./node_modules/react-img-atv/node_modules/react/index.js",
+          "moduleName": "./node_modules/react-img-atv/node_modules/react/index.js",
+          "type": "cjs require",
+          "userRequest": "./cjs/react.production.min.js",
+          "loc": "4:19-59"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 6,
+      "source": "/*\n React v16.0.0\n react.production.min.js\n\n Copyright (c) 2013-present, Facebook, Inc.\n\n This source code is licensed under the MIT license found in the\n LICENSE file in the root directory of this source tree.\n*/\n'use strict';var f=require(\"object-assign\"),p=require(\"fbjs/lib/emptyObject\");require(\"fbjs/lib/invariant\");var r=require(\"fbjs/lib/emptyFunction\");\nfunction t(a){for(var b=arguments.length-1,d=\"Minified React error #\"+a+\"; visit http://facebook.github.io/react/docs/error-decoder.html?invariant\\x3d\"+a,e=0;e<b;e++)d+=\"\\x26args[]\\x3d\"+encodeURIComponent(arguments[e+1]);b=Error(d+\" for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\");b.name=\"Invariant Violation\";b.framesToPop=1;throw b;}\nvar u={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}};function v(a,b,d){this.props=a;this.context=b;this.refs=p;this.updater=d||u}v.prototype.isReactComponent={};v.prototype.setState=function(a,b){\"object\"!==typeof a&&\"function\"!==typeof a&&null!=a?t(\"85\"):void 0;this.updater.enqueueSetState(this,a,b,\"setState\")};v.prototype.forceUpdate=function(a){this.updater.enqueueForceUpdate(this,a,\"forceUpdate\")};\nfunction w(a,b,d){this.props=a;this.context=b;this.refs=p;this.updater=d||u}function x(){}x.prototype=v.prototype;var y=w.prototype=new x;y.constructor=w;f(y,v.prototype);y.isPureReactComponent=!0;function z(a,b,d){this.props=a;this.context=b;this.refs=p;this.updater=d||u}var A=z.prototype=new x;A.constructor=z;f(A,v.prototype);A.unstable_isAsyncReactComponent=!0;A.render=function(){return this.props.children};\nvar B={Component:v,PureComponent:w,AsyncComponent:z},C={current:null},D=Object.prototype.hasOwnProperty,E=\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.element\")||60103,F={key:!0,ref:!0,__self:!0,__source:!0};function G(a,b,d,e,c,g,k){return{$$typeof:E,type:a,key:b,ref:d,props:k,_owner:g}}\nG.createElement=function(a,b,d){var e,c={},g=null,k=null,m=null,q=null;if(null!=b)for(e in void 0!==b.ref&&(k=b.ref),void 0!==b.key&&(g=\"\"+b.key),m=void 0===b.__self?null:b.__self,q=void 0===b.__source?null:b.__source,b)D.call(b,e)&&!F.hasOwnProperty(e)&&(c[e]=b[e]);var l=arguments.length-2;if(1===l)c.children=d;else if(1<l){for(var h=Array(l),n=0;n<l;n++)h[n]=arguments[n+2];c.children=h}if(a&&a.defaultProps)for(e in l=a.defaultProps,l)void 0===c[e]&&(c[e]=l[e]);return G(a,g,k,m,q,C.current,c)};\nG.createFactory=function(a){var b=G.createElement.bind(null,a);b.type=a;return b};G.cloneAndReplaceKey=function(a,b){return G(a.type,b,a.ref,a._self,a._source,a._owner,a.props)};\nG.cloneElement=function(a,b,d){var e=f({},a.props),c=a.key,g=a.ref,k=a._self,m=a._source,q=a._owner;if(null!=b){void 0!==b.ref&&(g=b.ref,q=C.current);void 0!==b.key&&(c=\"\"+b.key);if(a.type&&a.type.defaultProps)var l=a.type.defaultProps;for(h in b)D.call(b,h)&&!F.hasOwnProperty(h)&&(e[h]=void 0===b[h]&&void 0!==l?l[h]:b[h])}var h=arguments.length-2;if(1===h)e.children=d;else if(1<h){l=Array(h);for(var n=0;n<h;n++)l[n]=arguments[n+2];e.children=l}return G(a.type,c,g,k,m,q,e)};\nG.isValidElement=function(a){return\"object\"===typeof a&&null!==a&&a.$$typeof===E};var H=\"function\"===typeof Symbol&&Symbol.iterator,I=\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.element\")||60103;function escape(a){var b={\"\\x3d\":\"\\x3d0\",\":\":\"\\x3d2\"};return\"$\"+(\"\"+a).replace(/[=:]/g,function(a){return b[a]})}var J=/\\/+/g,K=[];\nfunction L(a,b,d,e){if(K.length){var c=K.pop();c.result=a;c.keyPrefix=b;c.func=d;c.context=e;c.count=0;return c}return{result:a,keyPrefix:b,func:d,context:e,count:0}}function M(a){a.result=null;a.keyPrefix=null;a.func=null;a.context=null;a.count=0;10>K.length&&K.push(a)}\nfunction N(a,b,d,e){var c=typeof a;if(\"undefined\"===c||\"boolean\"===c)a=null;if(null===a||\"string\"===c||\"number\"===c||\"object\"===c&&a.$$typeof===I)return d(e,a,\"\"===b?\".\"+O(a,0):b),1;var g=0;b=\"\"===b?\".\":b+\":\";if(Array.isArray(a))for(var k=0;k<a.length;k++){c=a[k];var m=b+O(c,k);g+=N(c,m,d,e)}else if(m=H&&a[H]||a[\"@@iterator\"],\"function\"===typeof m)for(a=m.call(a),k=0;!(c=a.next()).done;)c=c.value,m=b+O(c,k++),g+=N(c,m,d,e);else\"object\"===c&&(d=\"\"+a,t(\"31\",\"[object Object]\"===d?\"object with keys {\"+\nObject.keys(a).join(\", \")+\"}\":d,\"\"));return g}function O(a,b){return\"object\"===typeof a&&null!==a&&null!=a.key?escape(a.key):b.toString(36)}function P(a,b){a.func.call(a.context,b,a.count++)}function Q(a,b,d){var e=a.result,c=a.keyPrefix;a=a.func.call(a.context,b,a.count++);Array.isArray(a)?R(a,e,d,r.thatReturnsArgument):null!=a&&(G.isValidElement(a)&&(a=G.cloneAndReplaceKey(a,c+(!a.key||b&&b.key===a.key?\"\":(\"\"+a.key).replace(J,\"$\\x26/\")+\"/\")+d)),e.push(a))}\nfunction R(a,b,d,e,c){var g=\"\";null!=d&&(g=(\"\"+d).replace(J,\"$\\x26/\")+\"/\");b=L(b,g,e,c);null==a||N(a,\"\",Q,b);M(b)}var S={forEach:function(a,b,d){if(null==a)return a;b=L(null,null,b,d);null==a||N(a,\"\",P,b);M(b)},map:function(a,b,d){if(null==a)return a;var e=[];R(a,e,null,b,d);return e},count:function(a){return null==a?0:N(a,\"\",r.thatReturnsNull,null)},toArray:function(a){var b=[];R(a,b,null,r.thatReturnsArgument);return b}};\nmodule.exports={Children:{map:S.map,forEach:S.forEach,count:S.count,toArray:S.toArray,only:function(a){G.isValidElement(a)?void 0:t(\"143\");return a}},Component:B.Component,PureComponent:B.PureComponent,unstable_AsyncComponent:B.AsyncComponent,createElement:G.createElement,cloneElement:G.cloneElement,isValidElement:G.isValidElement,createFactory:G.createFactory,version:\"16.0.0\",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurrentOwner:C,assign:f}};\n"
+    },
+    {
       "id": "cxPT",
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/fbjs/lib/invariant.js",
       "name": "./node_modules/fbjs/lib/invariant.js",
-      "index": 11,
-      "index2": 2,
+      "index": 14,
+      "index2": 10,
       "size": 1506,
       "cacheable": true,
       "built": true,
@@ -2189,15 +2374,6 @@
           "loc": "11:37-66"
         },
         {
-          "moduleId": "vttU",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-          "module": "./node_modules/react/cjs/react.production.min.js",
-          "moduleName": "./node_modules/react/cjs/react.production.min.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/invariant",
-          "loc": "10:78-107"
-        },
-        {
           "moduleId": "Q4WQ",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/prop-types/factoryWithThrowingShims.js",
           "module": "./node_modules/prop-types/factoryWithThrowingShims.js",
@@ -2205,6 +2381,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/invariant",
           "loc": "11:16-45"
+        },
+        {
+          "moduleId": "ctcz",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+          "module": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+          "moduleName": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/invariant",
+          "loc": "10:78-107"
         }
       ],
       "usedExports": true,
@@ -2255,8 +2440,8 @@
       "id": "e6+Q",
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/fbjs/lib/emptyFunction.js",
       "name": "./node_modules/fbjs/lib/emptyFunction.js",
-      "index": 12,
-      "index2": 3,
+      "index": 11,
+      "index2": 2,
       "size": 959,
       "cacheable": true,
       "built": true,
@@ -2289,7 +2474,7 @@
           "moduleName": "./node_modules/react/cjs/react.production.min.js",
           "type": "cjs require",
           "userRequest": "fbjs/lib/emptyFunction",
-          "loc": "10:114-147"
+          "loc": "9:80-113"
         },
         {
           "moduleId": "o+pC",
@@ -2308,6 +2493,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/emptyFunction",
           "loc": "10:20-53"
+        },
+        {
+          "moduleId": "ctcz",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+          "module": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+          "moduleName": "./node_modules/react-img-atv/node_modules/react/cjs/react.production.min.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/emptyFunction",
+          "loc": "10:114-147"
         }
       ],
       "usedExports": true,
@@ -2321,7 +2515,7 @@
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/babel-loader/lib/index.js!/home/travis/build/Kikobeats/react-atv-logo/src/app/index.js",
       "name": "./src/app/index.js",
       "index": 1,
-      "index2": 30,
+      "index2": 32,
       "size": 1455,
       "cacheable": true,
       "built": true,
@@ -2396,8 +2590,8 @@
       "id": "gt/O",
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/prop-types/lib/ReactPropTypesSecret.js",
       "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "index": 28,
-      "index2": 21,
+      "index": 30,
+      "index2": 23,
       "size": 314,
       "cacheable": true,
       "built": true,
@@ -2431,12 +2625,12 @@
       "source": "/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n'use strict';\n\nvar ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';\n\nmodule.exports = ReactPropTypesSecret;\n"
     },
     {
-      "id": "r+jh",
-      "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/babel-loader/lib/index.js!/home/travis/build/Kikobeats/react-atv-logo/src/app/App/index.js",
-      "name": "./src/app/App/index.js",
-      "index": 23,
-      "index2": 27,
-      "size": 3704,
+      "id": "qrie",
+      "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--1-0!/home/travis/build/Kikobeats/react-atv-logo/node_modules/style-loader/index.js!/home/travis/build/Kikobeats/react-atv-logo/node_modules/css-loader/index.js??ref--1-2!/home/travis/build/Kikobeats/react-atv-logo/node_modules/postcss-loader/lib/index.js??ref--1-3!/home/travis/build/Kikobeats/react-atv-logo/node_modules/sass-loader/lib/loader.js??ref--1-4!/home/travis/build/Kikobeats/react-atv-logo/src/app/index.scss",
+      "name": "./src/app/index.scss",
+      "index": 32,
+      "index2": 30,
+      "size": 41,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -2458,26 +2652,22 @@
           "module": "./src/app/index.js",
           "moduleName": "./src/app/index.js",
           "type": "harmony import",
-          "userRequest": "./App",
-          "loc": "6:0-24"
+          "userRequest": "./index.scss",
+          "loc": "8:0-22"
         }
       ],
-      "usedExports": [
-        "default"
-      ],
-      "providedExports": [
-        "default"
-      ],
+      "usedExports": false,
+      "providedExports": null,
       "optimizationBailout": [],
       "depth": 2,
-      "source": "var _jsx = function () { var REACT_ELEMENT_TYPE = typeof Symbol === \"function\" && Symbol.for && Symbol.for(\"react.element\") || 0xeac7; return function createRawReactElement(type, props, key, children) { var defaultProps = type && type.defaultProps; var childrenLength = arguments.length - 3; if (!props && childrenLength !== 0) { props = {}; } if (props && defaultProps) { for (var propName in defaultProps) { if (props[propName] === void 0) { props[propName] = defaultProps[propName]; } } } else if (!props) { props = defaultProps || {}; } if (childrenLength === 1) { props.children = children; } else if (childrenLength > 1) { var childArray = Array(childrenLength); for (var i = 0; i < childrenLength; i++) { childArray[i] = arguments[i + 3]; } props.children = childArray; } return { $$typeof: REACT_ELEMENT_TYPE, type: type, key: key === undefined ? null : '' + key, ref: null, props: props, _owner: null }; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nimport React, { Component } from 'react';\n\nimport Card from '../Card';\n\nvar DEBOUNCE_MS = 500;\nvar DEFAULT_DOMAIN = 'https://stripe.com';\n\nvar _ref2 = _jsx('h1', {\n  className: 'f2 fw6 tc pv4 grey-700 avenir'\n}, void 0, 'react-atv-logo');\n\nvar _class = function (_Component) {\n  _inherits(_class, _Component);\n\n  function _class() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, _class);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = _class.__proto__ || Object.getPrototypeOf(_class)).call.apply(_ref, [this].concat(args))), _this), _this.state = { domain: DEFAULT_DOMAIN }, _this.onChange = function (e) {\n      var domain = e.target.value.trim() || DEFAULT_DOMAIN;\n      clearTimeout(_this.debouncedSetState);\n      _this.debouncedSetState = setTimeout(function () {\n        return _this.setState({ domain: domain });\n      }, DEBOUNCE_MS);\n    }, _this.render = function () {\n      return _jsx('main', {\n        className: 'vh-100 dt w-100 bg-grey-50'\n      }, void 0, _jsx('div', {\n        className: 'tc white ph3 ph4-l'\n      }, void 0, _ref2, _jsx('div', {\n        className: 'flex justify-center flex-column items-center'\n      }, void 0, _jsx(Card, {\n        className: 'pb4',\n        domain: _this.state.domain\n      }), _jsx('form', {\n        className: 'pa4 pb4 black-80 w-30-l'\n      }, void 0, _jsx('div', {\n        className: 'measure'\n      }, void 0, _jsx('input', {\n        id: 'name',\n        className: 'input-reset ba b--black-20 pa2 mb2 db w-100 br2',\n        type: 'text',\n        placeholder: 'Enter domain...',\n        onChange: _this.onChange\n      }))))));\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  return _class;\n}(Component);\n\nexport default _class;"
+      "source": "// removed by extract-text-webpack-plugin"
     },
     {
       "id": 0,
       "identifier": "multi ./src/app/index.js",
       "name": "multi ./src/app/index.js",
       "index": 0,
-      "index2": 31,
+      "index2": 33,
       "size": 28,
       "cacheable": true,
       "built": true,
@@ -2504,7 +2694,7 @@
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-hot-loader/lib/AppContainer.js",
       "name": "./node_modules/react-hot-loader/lib/AppContainer.js",
       "index": 5,
-      "index2": 7,
+      "index2": 6,
       "size": 223,
       "cacheable": true,
       "built": true,
@@ -2576,12 +2766,12 @@
       "source": "'use strict';\n\n/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n *\n * @typechecks\n */\n\nvar emptyFunction = require('./emptyFunction');\n\n/**\n * Upstream version of event listener. Does not take into account specific\n * nature of platform.\n */\nvar EventListener = {\n  /**\n   * Listen to DOM events during the bubble phase.\n   *\n   * @param {DOMEventTarget} target DOM element to register listener on.\n   * @param {string} eventType Event type, e.g. 'click' or 'mouseover'.\n   * @param {function} callback Callback function.\n   * @return {object} Object with a `remove` method.\n   */\n  listen: function listen(target, eventType, callback) {\n    if (target.addEventListener) {\n      target.addEventListener(eventType, callback, false);\n      return {\n        remove: function remove() {\n          target.removeEventListener(eventType, callback, false);\n        }\n      };\n    } else if (target.attachEvent) {\n      target.attachEvent('on' + eventType, callback);\n      return {\n        remove: function remove() {\n          target.detachEvent('on' + eventType, callback);\n        }\n      };\n    }\n  },\n\n  /**\n   * Listen to DOM events during the capture phase.\n   *\n   * @param {DOMEventTarget} target DOM element to register listener on.\n   * @param {string} eventType Event type, e.g. 'click' or 'mouseover'.\n   * @param {function} callback Callback function.\n   * @return {object} Object with a `remove` method.\n   */\n  capture: function capture(target, eventType, callback) {\n    if (target.addEventListener) {\n      target.addEventListener(eventType, callback, true);\n      return {\n        remove: function remove() {\n          target.removeEventListener(eventType, callback, true);\n        }\n      };\n    } else {\n      if (process.env.NODE_ENV !== 'production') {\n        console.error('Attempted to listen to events during the capture phase on a ' + 'browser that does not support the capture phase. Your application ' + 'will not receive some events.');\n      }\n      return {\n        remove: emptyFunction\n      };\n    }\n  },\n\n  registerDefault: function registerDefault() {}\n};\n\nmodule.exports = EventListener;"
     },
     {
-      "id": "qrie",
-      "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--1-0!/home/travis/build/Kikobeats/react-atv-logo/node_modules/style-loader/index.js!/home/travis/build/Kikobeats/react-atv-logo/node_modules/css-loader/index.js??ref--1-2!/home/travis/build/Kikobeats/react-atv-logo/node_modules/postcss-loader/lib/index.js??ref--1-3!/home/travis/build/Kikobeats/react-atv-logo/node_modules/sass-loader/lib/loader.js??ref--1-4!/home/travis/build/Kikobeats/react-atv-logo/src/app/index.scss",
-      "name": "./src/app/index.scss",
-      "index": 30,
-      "index2": 28,
-      "size": 41,
+      "id": "r+jh",
+      "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/babel-loader/lib/index.js!/home/travis/build/Kikobeats/react-atv-logo/src/app/App/index.js",
+      "name": "./src/app/App/index.js",
+      "index": 23,
+      "index2": 29,
+      "size": 3704,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -2603,22 +2793,26 @@
           "module": "./src/app/index.js",
           "moduleName": "./src/app/index.js",
           "type": "harmony import",
-          "userRequest": "./index.scss",
-          "loc": "8:0-22"
+          "userRequest": "./App",
+          "loc": "6:0-24"
         }
       ],
-      "usedExports": false,
-      "providedExports": null,
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
       "optimizationBailout": [],
       "depth": 2,
-      "source": "// removed by extract-text-webpack-plugin"
+      "source": "var _jsx = function () { var REACT_ELEMENT_TYPE = typeof Symbol === \"function\" && Symbol.for && Symbol.for(\"react.element\") || 0xeac7; return function createRawReactElement(type, props, key, children) { var defaultProps = type && type.defaultProps; var childrenLength = arguments.length - 3; if (!props && childrenLength !== 0) { props = {}; } if (props && defaultProps) { for (var propName in defaultProps) { if (props[propName] === void 0) { props[propName] = defaultProps[propName]; } } } else if (!props) { props = defaultProps || {}; } if (childrenLength === 1) { props.children = children; } else if (childrenLength > 1) { var childArray = Array(childrenLength); for (var i = 0; i < childrenLength; i++) { childArray[i] = arguments[i + 3]; } props.children = childArray; } return { $$typeof: REACT_ELEMENT_TYPE, type: type, key: key === undefined ? null : '' + key, ref: null, props: props, _owner: null }; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nimport React, { Component } from 'react';\n\nimport Card from '../Card';\n\nvar DEBOUNCE_MS = 500;\nvar DEFAULT_DOMAIN = 'https://stripe.com';\n\nvar _ref2 = _jsx('h1', {\n  className: 'f2 fw6 tc pv4 grey-700 avenir'\n}, void 0, 'react-atv-logo');\n\nvar _class = function (_Component) {\n  _inherits(_class, _Component);\n\n  function _class() {\n    var _ref;\n\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, _class);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = _class.__proto__ || Object.getPrototypeOf(_class)).call.apply(_ref, [this].concat(args))), _this), _this.state = { domain: DEFAULT_DOMAIN }, _this.onChange = function (e) {\n      var domain = e.target.value.trim() || DEFAULT_DOMAIN;\n      clearTimeout(_this.debouncedSetState);\n      _this.debouncedSetState = setTimeout(function () {\n        return _this.setState({ domain: domain });\n      }, DEBOUNCE_MS);\n    }, _this.render = function () {\n      return _jsx('main', {\n        className: 'vh-100 dt w-100 bg-grey-50'\n      }, void 0, _jsx('div', {\n        className: 'tc white ph3 ph4-l'\n      }, void 0, _ref2, _jsx('div', {\n        className: 'flex justify-center flex-column items-center'\n      }, void 0, _jsx(Card, {\n        className: 'pb4',\n        domain: _this.state.domain\n      }), _jsx('form', {\n        className: 'pa4 pb4 black-80 w-30-l'\n      }, void 0, _jsx('div', {\n        className: 'measure'\n      }, void 0, _jsx('input', {\n        id: 'name',\n        className: 'input-reset ba b--black-20 pa2 mb2 db w-100 br2',\n        type: 'text',\n        placeholder: 'Enter domain...',\n        onChange: _this.onChange\n      }))))));\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  return _class;\n}(Component);\n\nexport default _class;"
     },
     {
       "id": "rGbO",
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-hot-loader/index.js",
       "name": "./node_modules/react-hot-loader/index.js",
       "index": 2,
-      "index2": 10,
+      "index2": 9,
       "size": 40,
       "cacheable": true,
       "built": true,
@@ -2658,7 +2852,7 @@
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-hot-loader/lib/AppContainer.prod.js",
       "name": "./node_modules/react-hot-loader/lib/AppContainer.prod.js",
       "index": 6,
-      "index2": 6,
+      "index2": 5,
       "size": 2207,
       "cacheable": true,
       "built": true,
@@ -2733,8 +2927,8 @@
       "id": "t8iB",
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/offline-plugin/runtime.js",
       "name": "./node_modules/offline-plugin/runtime.js",
-      "index": 31,
-      "index2": 29,
+      "index": 33,
+      "index2": 31,
       "size": 1717,
       "cacheable": true,
       "built": true,
@@ -2810,8 +3004,8 @@
       "identifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
       "name": "./node_modules/react/cjs/react.production.min.js",
       "index": 8,
-      "index2": 4,
-      "size": 5611,
+      "index2": 3,
+      "size": 5363,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -2841,7 +3035,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "/*\n React v16.0.0\n react.production.min.js\n\n Copyright (c) 2013-present, Facebook, Inc.\n\n This source code is licensed under the MIT license found in the\n LICENSE file in the root directory of this source tree.\n*/\n'use strict';var f=require(\"object-assign\"),p=require(\"fbjs/lib/emptyObject\");require(\"fbjs/lib/invariant\");var r=require(\"fbjs/lib/emptyFunction\");\nfunction t(a){for(var b=arguments.length-1,d=\"Minified React error #\"+a+\"; visit http://facebook.github.io/react/docs/error-decoder.html?invariant\\x3d\"+a,e=0;e<b;e++)d+=\"\\x26args[]\\x3d\"+encodeURIComponent(arguments[e+1]);b=Error(d+\" for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\");b.name=\"Invariant Violation\";b.framesToPop=1;throw b;}\nvar u={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}};function v(a,b,d){this.props=a;this.context=b;this.refs=p;this.updater=d||u}v.prototype.isReactComponent={};v.prototype.setState=function(a,b){\"object\"!==typeof a&&\"function\"!==typeof a&&null!=a?t(\"85\"):void 0;this.updater.enqueueSetState(this,a,b,\"setState\")};v.prototype.forceUpdate=function(a){this.updater.enqueueForceUpdate(this,a,\"forceUpdate\")};\nfunction w(a,b,d){this.props=a;this.context=b;this.refs=p;this.updater=d||u}function x(){}x.prototype=v.prototype;var y=w.prototype=new x;y.constructor=w;f(y,v.prototype);y.isPureReactComponent=!0;function z(a,b,d){this.props=a;this.context=b;this.refs=p;this.updater=d||u}var A=z.prototype=new x;A.constructor=z;f(A,v.prototype);A.unstable_isAsyncReactComponent=!0;A.render=function(){return this.props.children};\nvar B={Component:v,PureComponent:w,AsyncComponent:z},C={current:null},D=Object.prototype.hasOwnProperty,E=\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.element\")||60103,F={key:!0,ref:!0,__self:!0,__source:!0};function G(a,b,d,e,c,g,k){return{$$typeof:E,type:a,key:b,ref:d,props:k,_owner:g}}\nG.createElement=function(a,b,d){var e,c={},g=null,k=null,m=null,q=null;if(null!=b)for(e in void 0!==b.ref&&(k=b.ref),void 0!==b.key&&(g=\"\"+b.key),m=void 0===b.__self?null:b.__self,q=void 0===b.__source?null:b.__source,b)D.call(b,e)&&!F.hasOwnProperty(e)&&(c[e]=b[e]);var l=arguments.length-2;if(1===l)c.children=d;else if(1<l){for(var h=Array(l),n=0;n<l;n++)h[n]=arguments[n+2];c.children=h}if(a&&a.defaultProps)for(e in l=a.defaultProps,l)void 0===c[e]&&(c[e]=l[e]);return G(a,g,k,m,q,C.current,c)};\nG.createFactory=function(a){var b=G.createElement.bind(null,a);b.type=a;return b};G.cloneAndReplaceKey=function(a,b){return G(a.type,b,a.ref,a._self,a._source,a._owner,a.props)};\nG.cloneElement=function(a,b,d){var e=f({},a.props),c=a.key,g=a.ref,k=a._self,m=a._source,q=a._owner;if(null!=b){void 0!==b.ref&&(g=b.ref,q=C.current);void 0!==b.key&&(c=\"\"+b.key);if(a.type&&a.type.defaultProps)var l=a.type.defaultProps;for(h in b)D.call(b,h)&&!F.hasOwnProperty(h)&&(e[h]=void 0===b[h]&&void 0!==l?l[h]:b[h])}var h=arguments.length-2;if(1===h)e.children=d;else if(1<h){l=Array(h);for(var n=0;n<h;n++)l[n]=arguments[n+2];e.children=l}return G(a.type,c,g,k,m,q,e)};\nG.isValidElement=function(a){return\"object\"===typeof a&&null!==a&&a.$$typeof===E};var H=\"function\"===typeof Symbol&&Symbol.iterator,I=\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.element\")||60103;function escape(a){var b={\"\\x3d\":\"\\x3d0\",\":\":\"\\x3d2\"};return\"$\"+(\"\"+a).replace(/[=:]/g,function(a){return b[a]})}var J=/\\/+/g,K=[];\nfunction L(a,b,d,e){if(K.length){var c=K.pop();c.result=a;c.keyPrefix=b;c.func=d;c.context=e;c.count=0;return c}return{result:a,keyPrefix:b,func:d,context:e,count:0}}function M(a){a.result=null;a.keyPrefix=null;a.func=null;a.context=null;a.count=0;10>K.length&&K.push(a)}\nfunction N(a,b,d,e){var c=typeof a;if(\"undefined\"===c||\"boolean\"===c)a=null;if(null===a||\"string\"===c||\"number\"===c||\"object\"===c&&a.$$typeof===I)return d(e,a,\"\"===b?\".\"+O(a,0):b),1;var g=0;b=\"\"===b?\".\":b+\":\";if(Array.isArray(a))for(var k=0;k<a.length;k++){c=a[k];var m=b+O(c,k);g+=N(c,m,d,e)}else if(m=H&&a[H]||a[\"@@iterator\"],\"function\"===typeof m)for(a=m.call(a),k=0;!(c=a.next()).done;)c=c.value,m=b+O(c,k++),g+=N(c,m,d,e);else\"object\"===c&&(d=\"\"+a,t(\"31\",\"[object Object]\"===d?\"object with keys {\"+\nObject.keys(a).join(\", \")+\"}\":d,\"\"));return g}function O(a,b){return\"object\"===typeof a&&null!==a&&null!=a.key?escape(a.key):b.toString(36)}function P(a,b){a.func.call(a.context,b,a.count++)}function Q(a,b,d){var e=a.result,c=a.keyPrefix;a=a.func.call(a.context,b,a.count++);Array.isArray(a)?R(a,e,d,r.thatReturnsArgument):null!=a&&(G.isValidElement(a)&&(a=G.cloneAndReplaceKey(a,c+(!a.key||b&&b.key===a.key?\"\":(\"\"+a.key).replace(J,\"$\\x26/\")+\"/\")+d)),e.push(a))}\nfunction R(a,b,d,e,c){var g=\"\";null!=d&&(g=(\"\"+d).replace(J,\"$\\x26/\")+\"/\");b=L(b,g,e,c);null==a||N(a,\"\",Q,b);M(b)}var S={forEach:function(a,b,d){if(null==a)return a;b=L(null,null,b,d);null==a||N(a,\"\",P,b);M(b)},map:function(a,b,d){if(null==a)return a;var e=[];R(a,e,null,b,d);return e},count:function(a){return null==a?0:N(a,\"\",r.thatReturnsNull,null)},toArray:function(a){var b=[];R(a,b,null,r.thatReturnsArgument);return b}};\nmodule.exports={Children:{map:S.map,forEach:S.forEach,count:S.count,toArray:S.toArray,only:function(a){G.isValidElement(a)?void 0:t(\"143\");return a}},Component:B.Component,PureComponent:B.PureComponent,unstable_AsyncComponent:B.AsyncComponent,createElement:G.createElement,cloneElement:G.cloneElement,isValidElement:G.isValidElement,createFactory:G.createFactory,version:\"16.0.0\",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurrentOwner:C,assign:f}};\n"
+      "source": "/** @license React v16.1.0\n * react.production.min.js\n *\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n'use strict';var m=require(\"object-assign\"),n=require(\"fbjs/lib/emptyObject\"),p=require(\"fbjs/lib/emptyFunction\");\nfunction q(a){for(var b=arguments.length-1,e=\"Minified React error #\"+a+\"; visit http://facebook.github.io/react/docs/error-decoder.html?invariant\\x3d\"+a,d=0;d<b;d++)e+=\"\\x26args[]\\x3d\"+encodeURIComponent(arguments[d+1]);b=Error(e+\" for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\");b.name=\"Invariant Violation\";b.framesToPop=1;throw b;}\nvar r={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}};function t(a,b,e){this.props=a;this.context=b;this.refs=n;this.updater=e||r}t.prototype.isReactComponent={};t.prototype.setState=function(a,b){\"object\"!==typeof a&&\"function\"!==typeof a&&null!=a?q(\"85\"):void 0;this.updater.enqueueSetState(this,a,b,\"setState\")};t.prototype.forceUpdate=function(a){this.updater.enqueueForceUpdate(this,a,\"forceUpdate\")};\nfunction u(a,b,e){this.props=a;this.context=b;this.refs=n;this.updater=e||r}function v(){}v.prototype=t.prototype;var w=u.prototype=new v;w.constructor=u;m(w,t.prototype);w.isPureReactComponent=!0;function x(a,b,e){this.props=a;this.context=b;this.refs=n;this.updater=e||r}var y=x.prototype=new v;y.constructor=x;m(y,t.prototype);y.unstable_isAsyncReactComponent=!0;y.render=function(){return this.props.children};\nvar z={current:null},A=Object.prototype.hasOwnProperty,B=\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.element\")||60103,C={key:!0,ref:!0,__self:!0,__source:!0};\nfunction D(a,b,e){var d,c={},h=null,k=null;if(null!=b)for(d in void 0!==b.ref&&(k=b.ref),void 0!==b.key&&(h=\"\"+b.key),b)A.call(b,d)&&!C.hasOwnProperty(d)&&(c[d]=b[d]);var f=arguments.length-2;if(1===f)c.children=e;else if(1<f){for(var g=Array(f),l=0;l<f;l++)g[l]=arguments[l+2];c.children=g}if(a&&a.defaultProps)for(d in f=a.defaultProps,f)void 0===c[d]&&(c[d]=f[d]);return{$$typeof:B,type:a,key:h,ref:k,props:c,_owner:z.current}}function E(a){return\"object\"===typeof a&&null!==a&&a.$$typeof===B}\nvar F=\"function\"===typeof Symbol&&Symbol.iterator,G=\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.element\")||60103,H=\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.portal\")||60106;function escape(a){var b={\"\\x3d\":\"\\x3d0\",\":\":\"\\x3d2\"};return\"$\"+(\"\"+a).replace(/[=:]/g,function(a){return b[a]})}var I=/\\/+/g,J=[];\nfunction K(a,b,e,d){if(J.length){var c=J.pop();c.result=a;c.keyPrefix=b;c.func=e;c.context=d;c.count=0;return c}return{result:a,keyPrefix:b,func:e,context:d,count:0}}function L(a){a.result=null;a.keyPrefix=null;a.func=null;a.context=null;a.count=0;10>J.length&&J.push(a)}\nfunction M(a,b,e,d){var c=typeof a;if(\"undefined\"===c||\"boolean\"===c)a=null;if(null===a||\"string\"===c||\"number\"===c||\"object\"===c&&a.$$typeof===G||\"object\"===c&&a.$$typeof===H)return e(d,a,\"\"===b?\".\"+N(a,0):b),1;var h=0;b=\"\"===b?\".\":b+\":\";if(Array.isArray(a))for(var k=0;k<a.length;k++){c=a[k];var f=b+N(c,k);h+=M(c,f,e,d)}else if(f=F&&a[F]||a[\"@@iterator\"],\"function\"===typeof f)for(a=f.call(a),k=0;!(c=a.next()).done;)c=c.value,f=b+N(c,k++),h+=M(c,f,e,d);else\"object\"===c&&(e=\"\"+a,q(\"31\",\"[object Object]\"===\ne?\"object with keys {\"+Object.keys(a).join(\", \")+\"}\":e,\"\"));return h}function N(a,b){return\"object\"===typeof a&&null!==a&&null!=a.key?escape(a.key):b.toString(36)}function O(a,b){a.func.call(a.context,b,a.count++)}\nfunction P(a,b,e){var d=a.result,c=a.keyPrefix;a=a.func.call(a.context,b,a.count++);Array.isArray(a)?Q(a,d,e,p.thatReturnsArgument):null!=a&&(E(a)&&(b=c+(!a.key||b&&b.key===a.key?\"\":(\"\"+a.key).replace(I,\"$\\x26/\")+\"/\")+e,a={$$typeof:B,type:a.type,key:b,ref:a.ref,props:a.props,_owner:a._owner}),d.push(a))}function Q(a,b,e,d,c){var h=\"\";null!=e&&(h=(\"\"+e).replace(I,\"$\\x26/\")+\"/\");b=K(b,h,d,c);null==a||M(a,\"\",P,b);L(b)}\"function\"===typeof Symbol&&Symbol[\"for\"]&&Symbol[\"for\"](\"react.fragment\");\nvar R={Children:{map:function(a,b,e){if(null==a)return a;var d=[];Q(a,d,null,b,e);return d},forEach:function(a,b,e){if(null==a)return a;b=K(null,null,b,e);null==a||M(a,\"\",O,b);L(b)},count:function(a){return null==a?0:M(a,\"\",p.thatReturnsNull,null)},toArray:function(a){var b=[];Q(a,b,null,p.thatReturnsArgument);return b},only:function(a){E(a)?void 0:q(\"143\");return a}},Component:t,PureComponent:u,unstable_AsyncComponent:x,createElement:D,cloneElement:function(a,b,e){var d=m({},a.props),c=a.key,h=a.ref,\nk=a._owner;if(null!=b){void 0!==b.ref&&(h=b.ref,k=z.current);void 0!==b.key&&(c=\"\"+b.key);if(a.type&&a.type.defaultProps)var f=a.type.defaultProps;for(g in b)A.call(b,g)&&!C.hasOwnProperty(g)&&(d[g]=void 0===b[g]&&void 0!==f?f[g]:b[g])}var g=arguments.length-2;if(1===g)d.children=e;else if(1<g){f=Array(g);for(var l=0;l<g;l++)f[l]=arguments[l+2];d.children=f}return{$$typeof:B,type:a.type,key:c,ref:h,props:d,_owner:k}},createFactory:function(a){var b=D.bind(null,a);b.type=a;return b},isValidElement:E,\nversion:\"16.1.0\",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurrentOwner:z,assign:m}},S=Object.freeze({default:R}),T=S&&R||S;module.exports=T[\"default\"]?T[\"default\"]:T;\n"
     }
   ],
   "filteredModules": 0,
