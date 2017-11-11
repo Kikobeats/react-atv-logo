@@ -5,7 +5,7 @@
   ],
   "version": "3.8.1",
   "hash": "764655550496dadebca5",
-  "time": 12913,
+  "time": 17885,
   "publicPath": "",
   "assetsByChunkName": {
     "main": [
@@ -76,14 +76,14 @@
     },
     {
       "name": "sw.js",
-      "size": 8790,
+      "size": 8791,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
     },
     {
       "name": "appcache/manifest.appcache",
-      "size": 114,
+      "size": 115,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
@@ -312,22 +312,13 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-          "issuerId": "vttU",
-          "issuerName": "./node_modules/react/cjs/react.production.min.js",
+          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerId": "/OLF",
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
-            {
-              "moduleId": "vttU",
-              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-              "module": "./node_modules/react/cjs/react.production.min.js",
-              "moduleName": "./node_modules/react/cjs/react.production.min.js",
-              "type": "cjs require",
-              "userRequest": "object-assign",
-              "loc": "9:19-43"
-            },
             {
               "moduleId": "/OLF",
               "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -336,6 +327,15 @@
               "type": "cjs require",
               "userRequest": "object-assign",
               "loc": "12:82-106"
+            },
+            {
+              "moduleId": "vttU",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+              "module": "./node_modules/react/cjs/react.production.min.js",
+              "moduleName": "./node_modules/react/cjs/react.production.min.js",
+              "type": "cjs require",
+              "userRequest": "object-assign",
+              "loc": "9:19-43"
             },
             {
               "moduleId": "ctcz",
@@ -714,22 +714,13 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-          "issuerId": "vttU",
-          "issuerName": "./node_modules/react/cjs/react.production.min.js",
+          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerId": "/OLF",
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
-            {
-              "moduleId": "vttU",
-              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-              "module": "./node_modules/react/cjs/react.production.min.js",
-              "moduleName": "./node_modules/react/cjs/react.production.min.js",
-              "type": "cjs require",
-              "userRequest": "fbjs/lib/emptyObject",
-              "loc": "9:46-77"
-            },
             {
               "moduleId": "/OLF",
               "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -738,6 +729,15 @@
               "type": "cjs require",
               "userRequest": "fbjs/lib/emptyObject",
               "loc": "12:327-358"
+            },
+            {
+              "moduleId": "vttU",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+              "module": "./node_modules/react/cjs/react.production.min.js",
+              "moduleName": "./node_modules/react/cjs/react.production.min.js",
+              "type": "cjs require",
+              "userRequest": "fbjs/lib/emptyObject",
+              "loc": "9:46-77"
             },
             {
               "moduleId": "ctcz",
@@ -1041,22 +1041,13 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-          "issuerId": "vttU",
-          "issuerName": "./node_modules/react/cjs/react.production.min.js",
+          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerId": "/OLF",
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
-            {
-              "moduleId": "vttU",
-              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-              "module": "./node_modules/react/cjs/react.production.min.js",
-              "moduleName": "./node_modules/react/cjs/react.production.min.js",
-              "type": "cjs require",
-              "userRequest": "fbjs/lib/emptyFunction",
-              "loc": "9:80-113"
-            },
             {
               "moduleId": "/OLF",
               "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -1065,6 +1056,15 @@
               "type": "cjs require",
               "userRequest": "fbjs/lib/emptyFunction",
               "loc": "12:109-142"
+            },
+            {
+              "moduleId": "vttU",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+              "module": "./node_modules/react/cjs/react.production.min.js",
+              "moduleName": "./node_modules/react/cjs/react.production.min.js",
+              "type": "cjs require",
+              "userRequest": "fbjs/lib/emptyFunction",
+              "loc": "9:80-113"
             },
             {
               "moduleId": "o+pC",
@@ -1769,22 +1769,13 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-      "issuerId": "vttU",
-      "issuerName": "./node_modules/react/cjs/react.production.min.js",
+      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerId": "/OLF",
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "vttU",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-          "module": "./node_modules/react/cjs/react.production.min.js",
-          "moduleName": "./node_modules/react/cjs/react.production.min.js",
-          "type": "cjs require",
-          "userRequest": "object-assign",
-          "loc": "9:19-43"
-        },
         {
           "moduleId": "/OLF",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -1793,6 +1784,15 @@
           "type": "cjs require",
           "userRequest": "object-assign",
           "loc": "12:82-106"
+        },
+        {
+          "moduleId": "vttU",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+          "module": "./node_modules/react/cjs/react.production.min.js",
+          "moduleName": "./node_modules/react/cjs/react.production.min.js",
+          "type": "cjs require",
+          "userRequest": "object-assign",
+          "loc": "9:19-43"
         },
         {
           "moduleId": "ctcz",
@@ -2171,22 +2171,13 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-      "issuerId": "vttU",
-      "issuerName": "./node_modules/react/cjs/react.production.min.js",
+      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerId": "/OLF",
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "vttU",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-          "module": "./node_modules/react/cjs/react.production.min.js",
-          "moduleName": "./node_modules/react/cjs/react.production.min.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/emptyObject",
-          "loc": "9:46-77"
-        },
         {
           "moduleId": "/OLF",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -2195,6 +2186,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/emptyObject",
           "loc": "12:327-358"
+        },
+        {
+          "moduleId": "vttU",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+          "module": "./node_modules/react/cjs/react.production.min.js",
+          "moduleName": "./node_modules/react/cjs/react.production.min.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/emptyObject",
+          "loc": "9:46-77"
         },
         {
           "moduleId": "ctcz",
@@ -2433,22 +2433,13 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-      "issuerId": "vttU",
-      "issuerName": "./node_modules/react/cjs/react.production.min.js",
+      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerId": "/OLF",
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "vttU",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
-          "module": "./node_modules/react/cjs/react.production.min.js",
-          "moduleName": "./node_modules/react/cjs/react.production.min.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/emptyFunction",
-          "loc": "9:80-113"
-        },
         {
           "moduleId": "/OLF",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -2457,6 +2448,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/emptyFunction",
           "loc": "12:109-142"
+        },
+        {
+          "moduleId": "vttU",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+          "module": "./node_modules/react/cjs/react.production.min.js",
+          "moduleName": "./node_modules/react/cjs/react.production.min.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/emptyFunction",
+          "loc": "9:80-113"
         },
         {
           "moduleId": "o+pC",
