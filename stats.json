@@ -3,9 +3,9 @@
   "warnings": [
     "OfflinePlugin: Cache asset [index.html] is not found in the output assets,if the asset is not processed by webpack, move it to the |externals| option to remove this warning."
   ],
-  "version": "3.8.1",
-  "hash": "13a0f2a98ad37784b6aa",
-  "time": 11685,
+  "version": "3.9.1",
+  "hash": "2f00dd872896f09f3f1f",
+  "time": 10222,
   "publicPath": "",
   "assetsByChunkName": {
     "main": [
@@ -76,14 +76,14 @@
     },
     {
       "name": "sw.js",
-      "size": 8791,
+      "size": 8790,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
     },
     {
       "name": "appcache/manifest.appcache",
-      "size": 115,
+      "size": 114,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
@@ -312,22 +312,13 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
-          "issuerId": "/OLF",
-          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+          "issuerId": "vttU",
+          "issuerName": "./node_modules/react/cjs/react.production.min.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
-            {
-              "moduleId": "/OLF",
-              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
-              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-              "type": "cjs require",
-              "userRequest": "object-assign",
-              "loc": "13:82-106"
-            },
             {
               "moduleId": "vttU",
               "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
@@ -336,6 +327,15 @@
               "type": "cjs require",
               "userRequest": "object-assign",
               "loc": "10:19-43"
+            },
+            {
+              "moduleId": "/OLF",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "type": "cjs require",
+              "userRequest": "object-assign",
+              "loc": "13:82-106"
             },
             {
               "moduleId": "ctcz",
@@ -714,22 +714,13 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
-          "issuerId": "/OLF",
-          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+          "issuerId": "vttU",
+          "issuerName": "./node_modules/react/cjs/react.production.min.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
-            {
-              "moduleId": "/OLF",
-              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
-              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-              "type": "cjs require",
-              "userRequest": "fbjs/lib/emptyObject",
-              "loc": "13:327-358"
-            },
             {
               "moduleId": "vttU",
               "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
@@ -738,6 +729,15 @@
               "type": "cjs require",
               "userRequest": "fbjs/lib/emptyObject",
               "loc": "10:46-77"
+            },
+            {
+              "moduleId": "/OLF",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "type": "cjs require",
+              "userRequest": "fbjs/lib/emptyObject",
+              "loc": "13:327-358"
             },
             {
               "moduleId": "ctcz",
@@ -1041,22 +1041,13 @@
             0
           ],
           "assets": [],
-          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
-          "issuerId": "/OLF",
-          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+          "issuerId": "vttU",
+          "issuerName": "./node_modules/react/cjs/react.production.min.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
-            {
-              "moduleId": "/OLF",
-              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
-              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-              "type": "cjs require",
-              "userRequest": "fbjs/lib/emptyFunction",
-              "loc": "13:109-142"
-            },
             {
               "moduleId": "vttU",
               "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
@@ -1065,6 +1056,15 @@
               "type": "cjs require",
               "userRequest": "fbjs/lib/emptyFunction",
               "loc": "10:80-113"
+            },
+            {
+              "moduleId": "/OLF",
+              "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "type": "cjs require",
+              "userRequest": "fbjs/lib/emptyFunction",
+              "loc": "13:109-142"
             },
             {
               "moduleId": "o+pC",
@@ -1769,22 +1769,13 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
-      "issuerId": "/OLF",
-      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+      "issuerId": "vttU",
+      "issuerName": "./node_modules/react/cjs/react.production.min.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "/OLF",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
-          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-          "type": "cjs require",
-          "userRequest": "object-assign",
-          "loc": "13:82-106"
-        },
         {
           "moduleId": "vttU",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
@@ -1793,6 +1784,15 @@
           "type": "cjs require",
           "userRequest": "object-assign",
           "loc": "10:19-43"
+        },
+        {
+          "moduleId": "/OLF",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "type": "cjs require",
+          "userRequest": "object-assign",
+          "loc": "13:82-106"
         },
         {
           "moduleId": "ctcz",
@@ -2171,22 +2171,13 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
-      "issuerId": "/OLF",
-      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+      "issuerId": "vttU",
+      "issuerName": "./node_modules/react/cjs/react.production.min.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "/OLF",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
-          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/emptyObject",
-          "loc": "13:327-358"
-        },
         {
           "moduleId": "vttU",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
@@ -2195,6 +2186,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/emptyObject",
           "loc": "10:46-77"
+        },
+        {
+          "moduleId": "/OLF",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/emptyObject",
+          "loc": "13:327-358"
         },
         {
           "moduleId": "ctcz",
@@ -2433,22 +2433,13 @@
         0
       ],
       "assets": [],
-      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
-      "issuerId": "/OLF",
-      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuer": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
+      "issuerId": "vttU",
+      "issuerName": "./node_modules/react/cjs/react.production.min.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
-        {
-          "moduleId": "/OLF",
-          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
-          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-          "type": "cjs require",
-          "userRequest": "fbjs/lib/emptyFunction",
-          "loc": "13:109-142"
-        },
         {
           "moduleId": "vttU",
           "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react/cjs/react.production.min.js",
@@ -2457,6 +2448,15 @@
           "type": "cjs require",
           "userRequest": "fbjs/lib/emptyFunction",
           "loc": "10:80-113"
+        },
+        {
+          "moduleId": "/OLF",
+          "moduleIdentifier": "/home/travis/build/Kikobeats/react-atv-logo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "type": "cjs require",
+          "userRequest": "fbjs/lib/emptyFunction",
+          "loc": "13:109-142"
         },
         {
           "moduleId": "o+pC",
@@ -3230,7 +3230,7 @@
       "assets": [
         {
           "name": "index.html",
-          "size": 551857,
+          "size": 551902,
           "chunks": [
             0
           ],
@@ -3255,12 +3255,12 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 548822,
+          "size": 548865,
           "names": [],
           "files": [
             "index.html"
           ],
-          "hash": "5a35f857fb712d0e7f35",
+          "hash": "8f533c7efde9a656b416",
           "parents": [],
           "modules": [
             {
@@ -3269,7 +3269,7 @@
               "name": "(webpack)/buildin/module.js",
               "index": 3,
               "index2": 1,
-              "size": 495,
+              "size": 517,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -3299,7 +3299,7 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 2,
-              "source": "module.exports = function(module) {\n\tif(!module.webpackPolyfill) {\n\t\tmodule.deprecate = function() {};\n\t\tmodule.paths = [];\n\t\t// module.parent = undefined by default\n\t\tif(!module.children) module.children = [];\n\t\tObject.defineProperty(module, \"loaded\", {\n\t\t\tenumerable: true,\n\t\t\tget: function() {\n\t\t\t\treturn module.l;\n\t\t\t}\n\t\t});\n\t\tObject.defineProperty(module, \"id\", {\n\t\t\tenumerable: true,\n\t\t\tget: function() {\n\t\t\t\treturn module.i;\n\t\t\t}\n\t\t});\n\t\tmodule.webpackPolyfill = 1;\n\t}\n\treturn module;\n};\n"
+              "source": "module.exports = function(module) {\r\n\tif(!module.webpackPolyfill) {\r\n\t\tmodule.deprecate = function() {};\r\n\t\tmodule.paths = [];\r\n\t\t// module.parent = undefined by default\r\n\t\tif(!module.children) module.children = [];\r\n\t\tObject.defineProperty(module, \"loaded\", {\r\n\t\t\tenumerable: true,\r\n\t\t\tget: function() {\r\n\t\t\t\treturn module.l;\r\n\t\t\t}\r\n\t\t});\r\n\t\tObject.defineProperty(module, \"id\", {\r\n\t\t\tenumerable: true,\r\n\t\t\tget: function() {\r\n\t\t\t\treturn module.i;\r\n\t\t\t}\r\n\t\t});\r\n\t\tmodule.webpackPolyfill = 1;\r\n\t}\r\n\treturn module;\r\n};\r\n"
             },
             {
               "id": "DuR2",
@@ -3307,7 +3307,7 @@
               "name": "(webpack)/buildin/global.js",
               "index": 2,
               "index2": 0,
-              "size": 488,
+              "size": 509,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -3337,7 +3337,7 @@
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 2,
-              "source": "var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn this;\n})();\n\ntry {\n\t// This works if eval is allowed (see CSP)\n\tg = g || Function(\"return this\")() || (1,eval)(\"this\");\n} catch(e) {\n\t// This works if the window reference is available\n\tif(typeof window === \"object\")\n\t\tg = window;\n}\n\n// g can still be undefined, but nothing to do about it...\n// We return undefined, instead of nothing here, so it's\n// easier to handle this case. if(!global) { ...}\n\nmodule.exports = g;\n"
+              "source": "var g;\r\n\r\n// This works in non-strict mode\r\ng = (function() {\r\n\treturn this;\r\n})();\r\n\r\ntry {\r\n\t// This works if eval is allowed (see CSP)\r\n\tg = g || Function(\"return this\")() || (1,eval)(\"this\");\r\n} catch(e) {\r\n\t// This works if the window reference is available\r\n\tif(typeof window === \"object\")\r\n\t\tg = window;\r\n}\r\n\r\n// g can still be undefined, but nothing to do about it...\r\n// We return undefined, instead of nothing here, so it's\r\n// easier to handle this case. if(!global) { ...}\r\n\r\nmodule.exports = g;\r\n"
             },
             {
               "id": "Fx9S",
@@ -3426,7 +3426,7 @@
           "name": "(webpack)/buildin/module.js",
           "index": 3,
           "index2": 1,
-          "size": 495,
+          "size": 517,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3456,7 +3456,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 2,
-          "source": "module.exports = function(module) {\n\tif(!module.webpackPolyfill) {\n\t\tmodule.deprecate = function() {};\n\t\tmodule.paths = [];\n\t\t// module.parent = undefined by default\n\t\tif(!module.children) module.children = [];\n\t\tObject.defineProperty(module, \"loaded\", {\n\t\t\tenumerable: true,\n\t\t\tget: function() {\n\t\t\t\treturn module.l;\n\t\t\t}\n\t\t});\n\t\tObject.defineProperty(module, \"id\", {\n\t\t\tenumerable: true,\n\t\t\tget: function() {\n\t\t\t\treturn module.i;\n\t\t\t}\n\t\t});\n\t\tmodule.webpackPolyfill = 1;\n\t}\n\treturn module;\n};\n"
+          "source": "module.exports = function(module) {\r\n\tif(!module.webpackPolyfill) {\r\n\t\tmodule.deprecate = function() {};\r\n\t\tmodule.paths = [];\r\n\t\t// module.parent = undefined by default\r\n\t\tif(!module.children) module.children = [];\r\n\t\tObject.defineProperty(module, \"loaded\", {\r\n\t\t\tenumerable: true,\r\n\t\t\tget: function() {\r\n\t\t\t\treturn module.l;\r\n\t\t\t}\r\n\t\t});\r\n\t\tObject.defineProperty(module, \"id\", {\r\n\t\t\tenumerable: true,\r\n\t\t\tget: function() {\r\n\t\t\t\treturn module.i;\r\n\t\t\t}\r\n\t\t});\r\n\t\tmodule.webpackPolyfill = 1;\r\n\t}\r\n\treturn module;\r\n};\r\n"
         },
         {
           "id": "DuR2",
@@ -3464,7 +3464,7 @@
           "name": "(webpack)/buildin/global.js",
           "index": 2,
           "index2": 0,
-          "size": 488,
+          "size": 509,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3494,7 +3494,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 2,
-          "source": "var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn this;\n})();\n\ntry {\n\t// This works if eval is allowed (see CSP)\n\tg = g || Function(\"return this\")() || (1,eval)(\"this\");\n} catch(e) {\n\t// This works if the window reference is available\n\tif(typeof window === \"object\")\n\t\tg = window;\n}\n\n// g can still be undefined, but nothing to do about it...\n// We return undefined, instead of nothing here, so it's\n// easier to handle this case. if(!global) { ...}\n\nmodule.exports = g;\n"
+          "source": "var g;\r\n\r\n// This works in non-strict mode\r\ng = (function() {\r\n\treturn this;\r\n})();\r\n\r\ntry {\r\n\t// This works if eval is allowed (see CSP)\r\n\tg = g || Function(\"return this\")() || (1,eval)(\"this\");\r\n} catch(e) {\r\n\t// This works if the window reference is available\r\n\tif(typeof window === \"object\")\r\n\t\tg = window;\r\n}\r\n\r\n// g can still be undefined, but nothing to do about it...\r\n// We return undefined, instead of nothing here, so it's\r\n// easier to handle this case. if(!global) { ...}\r\n\r\nmodule.exports = g;\r\n"
         },
         {
           "id": "Fx9S",
