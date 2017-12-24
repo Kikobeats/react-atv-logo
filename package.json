@@ -58,8 +58,8 @@
     "webpack-bundle-analyzer": "~2.9.0"
   },
   "devDependencies": {
-    "babel-eslint": "~8.1.0",
-    "babel-plugin-transform-class-properties": "~6.24.1",
+    "babel-eslint": "latest",
+    "babel-plugin-transform-class-properties": "latest",
     "babel-preset-react-optimize": "latest",
     "browser-sync": "latest",
     "browser-sync-webpack-plugin": "latest",
