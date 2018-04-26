@@ -38,7 +38,7 @@
     "html-webpack-plugin": "~3.0.0",
     "material-colors-scss": "~1.0.0",
     "node-sass": "~4.7.2",
-    "offline-plugin": "~4.9.0",
+    "offline-plugin": "~5.0.0",
     "optimize-css-assets-webpack-plugin": "~3.2.0",
     "postcss-focus": "~3.0.0",
     "postcss-loader": "~2.1.0",
